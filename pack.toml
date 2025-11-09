@@ -1,0 +1,13 @@
+name = "Modern Factory"
+author = "gronkdev"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b9e57f5c457115113b0fab0caca77702e09d8a4e44212b822d9ad7d8201446f0"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.214"

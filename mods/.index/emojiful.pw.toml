@@ -1,0 +1,16 @@
+filename = 'Emojiful-Neoforge-1.21-5.2.1-all.jar'
+name = 'Emojiful'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '9593141e8e9853cdbc2a1d9be57245db092b2bf8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6630130
+project-id = 284324
