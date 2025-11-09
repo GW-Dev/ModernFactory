@@ -3,15 +3,15 @@ debugCommands = false
 #Maximum height of the distillation tower multiblock.
 # Default: 9
 # Range: 1 ~ 32
-maxDistillationTowerHeight = 9
+maxDistillationTowerHeight = 16
 #Enable the default trades from the Industrialist villager provided by MI.
 #Disable this to provide your own set of trades.
-defaultIndustrialistTrades = true
+defaultIndustrialistTrades = false
 
 [compat]
 	#Enable bidirectional energy compatibility with NeoForge's energy system.
 	#We recommend leaving this to false unless the other mods have been balanced accordingly.
-	bidirectionalEnergyCompat = false
+	bidirectionalEnergyCompat = true
 	#Enable the Applied Energistics 2 integration, if present.
 	ae2Integration = true
 	#Enable the FTB Quests integration, if present.
@@ -21,6 +21,6 @@ defaultIndustrialistTrades = true
 
 [datagen]
 	#Run MI runtime datagen on startup.
-	datagenOnStartup = false
+	datagenOnStartup = true
 	#Additionally load resources in modern_industrialization/generated_resources.
-	loadRuntimeGeneratedResources = false
+	loadRuntimeGeneratedResources = true
