@@ -1294,11 +1294,6 @@ hash = "d573695d37296209dc06495d359c4b283ffa6640bcfe8aa9c9b59eb420891788"
 metafile = true
 
 [[files]]
-file = "mods/hostile-neural-industrialization.pw.toml"
-hash = "4dbff0646ac607b5f92bd95f8ea79adc37859160c4717e733eb8d4f617a2f4a0"
-metafile = true
-
-[[files]]
 file = "mods/hostile-neural-networks.pw.toml"
 hash = "90f96f9e48eea134f5a399b859d4977d6166a1711c917224375ce832b0b9cf53"
 metafile = true
