@@ -1169,6 +1169,11 @@ hash = "2acfb5ef4452508a69d1e1054fb318ce6df1f16afbbca396b8dc3199b4ba9ac6"
 metafile = true
 
 [[files]]
+file = "mods/extradelight.pw.toml"
+hash = "dde6155195cd110a80f0726c843ebb59e17f446b5e99c9f69409a1b4f4cbff6e"
+metafile = true
+
+[[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
 hash = "5cb26b582b49e534ecf327bfa08ecaa21ae71d995a1bea4491fb0f631ad445d4"
 metafile = true
@@ -1611,6 +1616,11 @@ metafile = true
 [[files]]
 file = "mods/valhelsia-core.pw.toml"
 hash = "c00a6ef6f5e855b3144ad48f5df41d05150c5d11cecd558704f9b827b756300d"
+metafile = true
+
+[[files]]
+file = "mods/william-wythers-overhauled-overworld.pw.toml"
+hash = "63d4a6aefa8b8231a03e6d7d4af9866673bae0b839a28964a522598cec44845c"
 metafile = true
 
 [[files]]
