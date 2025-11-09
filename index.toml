@@ -1,22 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".gitattributes.txt"
-hash = "f1c49afdbf5c184940b9d1b0dcb6e070c8ca915a36d6c2b7f5a4c641e1080aea"
-
-[[files]]
-file = ".gitignore.txt"
-hash = "9515dd3c0b8116eb6c6b380aabf6f3cd92a05cafe45fbc4158629dae20fc68e8"
-
-[[files]]
-file = ".packwizignore.txt"
-hash = "8de2fa3a06e7695f2cd3a835a5589eb8230adda1c683c55d03e9cbeba83ece70"
-
-[[files]]
-file = "LICENSE"
-hash = "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
-
-[[files]]
 file = "config/EnderStorage.cfg"
 hash = "ee18dee1a8206cc3853e156102d70038554a4d0e30937e1e8145ef49086d0670"
 
@@ -41,10 +25,6 @@ file = "config/NoChatReports/NCR-ServerPreferences.json"
 hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
 
 [[files]]
-file = "config/NoChatReports/README.md"
-hash = "c52b76ccad2bd1063a22c7f6bb9e7c5db6b00fb53a6fd605585972ee0e5fc01f"
-
-[[files]]
 file = "config/actuallyadditions-client.toml"
 hash = "dd5947fd245a9fbafd38aa3c5808ad636f2f762adc6e47e3e33ac009fc73d2df"
 
@@ -62,7 +42,7 @@ hash = "c003fb3ac64c789cea15fd44a8f19d1f4f0c925758d376406472294f16a5b52d"
 
 [[files]]
 file = "config/ae2-common.toml"
-hash = "d5bb325da6d3dbaf0015cf02fbd2d708c22fe761232d2b9bb2112e1f187458d2"
+hash = "1bb477c467bc7fea88b664262777244fbc99d9b2bd94c91465804225f6a28cb6"
 
 [[files]]
 file = "config/akashictome-common.toml"
@@ -642,15 +622,15 @@ hash = "f25e0012be339dc6020bc892faea1c9765466a16fd1bb4174c00d885270a9241"
 
 [[files]]
 file = "config/modern_industrialization-client.toml"
-hash = "b01bb27b147ddb0ad711052c70f3107ff8b21be2fc3d53867771c4c07481fcf1"
+hash = "2b4c722f4cd3614bdb1dc8ec5bb4e79978ea4068bfa63ba1f1c2ac84f6a6d5fd"
 
 [[files]]
 file = "config/modern_industrialization-server.toml"
-hash = "34d6935e1db15d5cb088278d739caaa2e549e9d9e9de5cc825ab491845427bd5"
+hash = "3a7b600041760178f5ae2e14961a8d2d06eebd69802087f8397f28dee43d856b"
 
 [[files]]
 file = "config/modern_industrialization-startup.toml"
-hash = "f980028a67763e514f24d465bee6e843152a46a4dc25868c8736c7978f80a5b1"
+hash = "7f16beaf26dc50f3e5302f0388be95a67bef896ee2f423d7ed96c1c50fc94b8b"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -1540,7 +1520,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/selene.pw.toml"
-hash = "6f70af1d2dbd2342bdcd67db545ed685419d68cda6a38d041c7f915d78b9fbde"
+hash = "444412df7e76a3607fa095c27efbd771c503ab75ac0084104f54bc16502d337d"
 metafile = true
 
 [[files]]
@@ -1590,7 +1570,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/tesseract-api-neoforge.pw.toml"
-hash = "a1b2e488c614fbd1f230ce50058bef13cdd70b08b5d44f223542fbe6f7e63bb1"
+hash = "488fab6bf4f9d233316de4cebe81a2b1930439708beee9d252bbb480b69b4ca0"
 metafile = true
 
 [[files]]
@@ -1699,11 +1679,6 @@ hash = "06509daba8699a8a25c41a28e8061183ffabb0cf74efa010e5dd4437d68950ce"
 metafile = true
 
 [[files]]
-file = "mods/actually-additions.pw.toml"
-hash = "2f1e96fc9c680ba586d60a3d70d1a5ccfc18d8958e4f0d43db6e54dc58639069"
-metafile = true
-
-[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "925868d37e4696c59df77549f9e64207780d4655219fd5cfc0b187df302d45f8"
 metafile = true
@@ -1729,6 +1704,11 @@ hash = "4ca8b963965342aafdfe251e5306259eb9cf459d43e46d9695974dcff01465aa"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
+hash = "bcad9c48693a7f88f4d7e8bad3687a0cf890c4eefd71a1ea59aca9a1a14959d5"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "afa4f499d946514c51f41f8f2202ac0946052b012570a210ebb31f0d0d627672"
 metafile = true
@@ -1741,6 +1721,11 @@ metafile = true
 [[files]]
 file = "mods/attributefix.pw.toml"
 hash = "a445471ac6843bcf9fb76eabb4357de0357dfa7782be536a7827a26764fe45c1"
+metafile = true
+
+[[files]]
+file = "mods/backpacked.pw.toml"
+hash = "d5caeac5bfc1da946bc8f83cc1866242a9fc289492764a5c6e2cc1740e7e4ca5"
 metafile = true
 
 [[files]]
@@ -1779,8 +1764,9 @@ hash = "86cf2ae835b8f3d981af2e88a4d19fdc3dc4f5aa3904c6ba30e25d77d3e9fcbb"
 metafile = true
 
 [[files]]
-file = "mods/cc-tweaked-1.21.1-forge-1.116.2.jar"
-hash = "4a04bcfb3cc20847e4dde5d520f29b1a97a050a64c4dd72c48adef68f82df2b2"
+file = "mods/cc-tweaked.pw.toml"
+hash = "667344dcc91381c11ea871326f828a72e3386dfc450b7e08ca1ea409f66cc2d3"
+metafile = true
 
 [[files]]
 file = "mods/charm-of-undying.pw.toml"
@@ -1993,6 +1979,11 @@ hash = "dd617747ecd36e752952071f625876727cac62ae2acc95512c53e6414cbf8b1e"
 metafile = true
 
 [[files]]
+file = "mods/framework.pw.toml"
+hash = "3944c175d3409b2db40630cdc0be1cad181009cc3c20c925328cb9b04bea0108"
+metafile = true
+
+[[files]]
 file = "mods/ftb-backups-2.pw.toml"
 hash = "2a75b3fb887f2b973ce82a1881ac811eea35dfe194d4e321f3e2565815e94448"
 metafile = true
@@ -2098,6 +2089,11 @@ hash = "1b295520acb1eb0ec062ffe94192ed9a833cdd86386e28d244201f9fca9397c0"
 metafile = true
 
 [[files]]
+file = "mods/journeymap-integration.pw.toml"
+hash = "20202d3155a9c99848a2aa34648766d909538346a6f996d284e6fa2e1569e39e"
+metafile = true
+
+[[files]]
 file = "mods/journeymap.pw.toml"
 hash = "448c3e93e0cd1231c129313a82fa2820644f4ebdaa78346bb283dc29acbe9976"
 metafile = true
@@ -2119,7 +2115,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "29fac367aeed3f502930a6aeeeba271b313cdebc42f6485b8983f12f55da1274"
+hash = "bc0f166470533ba6713a3f15ad07dcb2f7f6fdf1554ab8cd999d9a7896e80ba0"
 metafile = true
 
 [[files]]
@@ -2218,11 +2214,6 @@ hash = "2fe074d31064ee3cf0ab6b1bccdf344161179e2aaf06727c8c42d3cc0160c2e9"
 metafile = true
 
 [[files]]
-file = "mods/paragliders.pw.toml"
-hash = "898a664d80b95bcab4a21945595637dbb2e741d5a6c8214f79f38923e1297632"
-metafile = true
-
-[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "b7fec81bc4939896a1feb78c16cb17fd3140092e7ceca993bf982387e6b7bdca"
 metafile = true
@@ -2289,7 +2280,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "dbea6c8c7db56125763c0e203d11720416b27da14fa28644f93427d7e9c62e2d"
+hash = "444412df7e76a3607fa095c27efbd771c503ab75ac0084104f54bc16502d337d"
 metafile = true
 
 [[files]]
@@ -2313,16 +2304,6 @@ hash = "8d5628a4af0f355519b17bb0c6e5783c30aa78f6aa04b77b3892cd5d7c10af03"
 metafile = true
 
 [[files]]
-file = "mods/sophisticated-backpacks.pw.toml"
-hash = "1cbd52b71cc29b7898cab67367e4a8885cf7e6dcd202521e0884f9025eaab09d"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-core.pw.toml"
-hash = "1595373ae256fc324d04550d0bc07409a4e140acb38e7766f2757f4163a9579d"
-metafile = true
-
-[[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "8fc5de8af644504673af794edc678ffa7b508c39ad30f69736744b282d55ad50"
 metafile = true
@@ -2339,7 +2320,7 @@ metafile = true
 
 [[files]]
 file = "mods/tesseract-api-neoforge.pw.toml"
-hash = "c7d9750faebf2531a30bd0a374a5e5222820717581207b4416a905acc3a77b91"
+hash = "488fab6bf4f9d233316de4cebe81a2b1930439708beee9d252bbb480b69b4ca0"
 metafile = true
 
 [[files]]

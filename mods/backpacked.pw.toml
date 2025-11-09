@@ -1,0 +1,13 @@
+name = "Backpacked"
+filename = "backpacked-neoforge-1.21.1-3.0.0-beta.17-signed.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "af2d1a6d1d34e439a230529994dd22407ecc831f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7181506
+project-id = 352835

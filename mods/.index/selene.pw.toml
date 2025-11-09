@@ -1,16 +1,13 @@
-filename = 'moonlight-1.21-2.25.5-neoforge.jar'
-name = 'Moonlight Lib'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Moonlight Lib"
+filename = "moonlight-1.21-2.26.0-neoforge.jar"
+side = "both"
 
 [download]
-hash = 'cb524ec21f15fce478ba7e163bb79289235c4fe4'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = "sha1"
+hash = "a603867860b98a3f489c109e3461c473bd59c752"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 7162694
+file-id = 7199157
 project-id = 499980
