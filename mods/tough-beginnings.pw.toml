@@ -1,0 +1,13 @@
+name = "Tough Beginnings"
+filename = "tough_beginnings-1.9.4-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cef8e95ba644c068f2a8d538eb4988fd588f03f0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5936270
+project-id = 884483

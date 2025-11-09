@@ -1089,6 +1089,11 @@ hash = "feb859385e0320c6a3a452d175885d138f567c938f7f3fc3558bdec17e0241ae"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "742108414562eb148ff95c653f15731fe793a58e50ae2747017da0cf20c53982"
+metafile = true
+
+[[files]]
 file = "mods/cryonicconfig.pw.toml"
 hash = "f15df90ce434a8886579bd4f5da715e42204725131b2fb5be1037a631979fdbe"
 metafile = true
@@ -1191,11 +1196,6 @@ metafile = true
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
 hash = "9d093b62fbc3006495ba111bff1ffa120287bb294214f7dd7456e99014fd9503"
-metafile = true
-
-[[files]]
-file = "mods/fast-leaf-decay.pw.toml"
-hash = "e5c471aaab9047178ad25e91d28240fefd7b6e48d52af4274bc53239eb1da8c6"
 metafile = true
 
 [[files]]
@@ -1554,8 +1554,8 @@ hash = "8d5628a4af0f355519b17bb0c6e5783c30aa78f6aa04b77b3892cd5d7c10af03"
 metafile = true
 
 [[files]]
-file = "mods/spice-of-life-carrot-edition.pw.toml"
-hash = "8fc5de8af644504673af794edc678ffa7b508c39ad30f69736744b282d55ad50"
+file = "mods/spice-of-life-onion.pw.toml"
+hash = "040cd2ea99fe56de44c97d40fd6f379112775180f09daa812f4c79470fe1c967"
 metafile = true
 
 [[files]]
@@ -1596,6 +1596,16 @@ metafile = true
 [[files]]
 file = "mods/toast-control.pw.toml"
 hash = "29d1e04030fcbdad4ee91eb9bc0b0d6b8907ffe967c9bd0543e8bb7e3dab5282"
+metafile = true
+
+[[files]]
+file = "mods/tough-beginnings.pw.toml"
+hash = "f6138791cf76d1256d1f0fdfb32b77c7244c27f17e502c78c64953c1008252d4"
+metafile = true
+
+[[files]]
+file = "mods/treechop.pw.toml"
+hash = "f0770e8df6212a00fcea3dcd72bdcaa344fa745593abc867b7e499fb493556b6"
 metafile = true
 
 [[files]]
