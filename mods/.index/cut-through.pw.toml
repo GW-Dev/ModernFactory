@@ -1,0 +1,16 @@
+filename = 'CutThrough-v21.1.0-1.21.1-NeoForge.jar'
+name = 'Cut Through'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '550f272c140566f0961c1bb3fdfb1a6272be30dd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5731913
+project-id = 969423
