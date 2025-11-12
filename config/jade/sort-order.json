@@ -96,6 +96,8 @@
   "tempad:workstation": null,
   "tombstone:decorative_graves": null,
   "tombstone:player_graves": null,
+  "treechop:plugin": null,
   "twilightforest:chiseled_bookshelf_spawner": null,
-  "twilightforest:quest_ram_wool": null
+  "twilightforest:quest_ram_wool": null,
+  "waystones:waystone": null
 }

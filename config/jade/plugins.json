@@ -10,8 +10,8 @@
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "energy_storage.style": "PROGRESS_BAR",
-    "item_storage": true,
     "item_storage.normal_amount": 9,
+    "item_storage": true,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -56,13 +56,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "tempad": {
-    "chronon": true,
-    "rudimentary": true,
-    "anchor": true,
-    "metronome": true,
-    "workstation": true,
-    "timedoor": true
+  "treechop": {
+    "plugin": true,
+    "show_tree_block_counts": true,
+    "show_num_chops_remaining": true
   },
   "jade_access": {
     "held_item": true,
@@ -125,5 +122,8 @@
   },
   "supplementaries": {
     "hat_stand": true
+  },
+  "waystones": {
+    "waystone": true
   }
 }
