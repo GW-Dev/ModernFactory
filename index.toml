@@ -1258,6 +1258,11 @@ hash = "bb2700ce31fc7cd121ecf07f106302303ee366b7573b77bbdd97eee955233cda"
 metafile = true
 
 [[files]]
+file = "mods/better-foliage-renewed.pw.toml"
+hash = "62a4c812fdf9ae0ad6dc176b9fab29e709cdbfe1c0aca0fc5287926083f3bac5"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c495c19a48e96ad7d32d8738a9209539968f7f41db7a5f8d20eed1b0f477fcad"
 metafile = true
@@ -1498,6 +1503,11 @@ hash = "5d3594b79a50d63e6966fd45b7ff83b9ee4dbd67d611a276141e96a5feef91ff"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "c3943921aff04f28e8dbb2a8d2ec45ad340a29f48c0282478d61335601af199a"
+metafile = true
+
+[[files]]
 file = "mods/forgiving-void.pw.toml"
 hash = "7d88a1f06f24e15be3a1ef1acf50dd06ca5d6db4b416809a04b93d41f7f92e36"
 metafile = true
@@ -1575,6 +1585,11 @@ metafile = true
 [[files]]
 file = "mods/hang-glider.pw.toml"
 hash = "70112a7b08034441ac4d4d97a41b9efe45e52dbdae7f1cc65979ab48e9fe74f7"
+metafile = true
+
+[[files]]
+file = "mods/hostile-neural-industrialization.pw.toml"
+hash = "3cd564bd3b932af04ced17d6c3c91f22347e9a131c1bd821cd3980cd872fe584"
 metafile = true
 
 [[files]]
@@ -1763,8 +1778,18 @@ hash = "2fe074d31064ee3cf0ab6b1bccdf344161179e2aaf06727c8c42d3cc0160c2e9"
 metafile = true
 
 [[files]]
+file = "mods/particle-effects-reforged.pw.toml"
+hash = "cd1c13bf609c546ea333ba2b3237e7f87a910aee3fa4bb1b384416a38941e2a9"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "b7fec81bc4939896a1feb78c16cb17fd3140092e7ceca993bf982387e6b7bdca"
+metafile = true
+
+[[files]]
+file = "mods/perfect-parity-spring-to-life-reforged.pw.toml"
+hash = "52a58f6045cf65b1cf5d3dd0358fda22b6fd7cf2c196873ba8b25f851b0dbc68"
 metafile = true
 
 [[files]]
