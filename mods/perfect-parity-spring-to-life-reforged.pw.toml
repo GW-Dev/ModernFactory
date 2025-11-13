@@ -1,0 +1,13 @@
+name = "Perfect Parity: Spring To Life Reforged"
+filename = "perfectparity-1.21.1-NeoForge-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2e3b134043c6d585d5d53c7c4d482c1c9418a225"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6640755
+project-id = 1276662
