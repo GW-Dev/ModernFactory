@@ -132,7 +132,26 @@
 		# Show entity heads on minimap
 		# Default: true
 		entity_heads: true
-		entity_icon: { }
+		entity_icon: {
+			"minecraft:zombie": true
+			"minecraft:spider": true
+			"minecraft:parrot": true
+			"minecraft:armadillo": true
+			"minecraft:squid": true
+			"forbidden_arcanus:lost_soul": true
+			"minecraft:glow_squid": true
+			"minecraft:skeleton": true
+			"minecraft:zombie_villager": true
+			"minecraft:enderman": true
+			"minecraft:sheep": true
+			"minecraft:creeper": true
+			"minecraft:chicken": true
+			"minecraft:pig": true
+			"minecraft:cow": true
+			"minecraft:bat": true
+			"minecraft:salmon": false
+			"minecraft:horse": true
+		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
 		# Default: 0.5
@@ -251,11 +270,11 @@
 		
 		# Enables creation of death waypoints
 		# Default: true
-		death_waypoints: true
+		death_waypoints: false
 		
 		# Show waypoints in world
 		# Default: true
-		in_world_waypoints: true
+		in_world_waypoints: false
 		
 		# Minimum distance before waypoint dots start to fade
 		# Default: 1.0
