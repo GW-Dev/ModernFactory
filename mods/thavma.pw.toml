@@ -1,0 +1,13 @@
+name = "Thavma"
+filename = "thavma-neoforge-1.21.1-0.12.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ac3d213d4b623551839749e1095412155d8a825b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7221552
+project-id = 1271073

@@ -1107,11 +1107,6 @@ hash = "42ffb6f5835250003da6ca3667ff751709ea295faee43b49c365b0f6c1e8f4d8"
 metafile = true
 
 [[files]]
-file = "mods/corail-tombstone.pw.toml"
-hash = "80fc5d7af0f1e2ec6935f15d4c98c6958db494505c3b6036193ee3d13f7643ad"
-metafile = true
-
-[[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
 hash = "b65ee01fec17228645121952de6dec75053b0b4c59a8c8036d6fa7829819f3f9"
 metafile = true
@@ -1262,11 +1257,6 @@ hash = "0d13e70b59a7f4623237f6b03e22368235d123030f36f18312fd20a8f7d2e459"
 metafile = true
 
 [[files]]
-file = "mods/forbidden-arcanus.pw.toml"
-hash = "d7343664280e8b3d1c96f9a6726caf2d25376fd7e378fdfc47a0be9bccde3a3c"
-metafile = true
-
-[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "c3943921aff04f28e8dbb2a8d2ec45ad340a29f48c0282478d61335601af199a"
 metafile = true
@@ -1413,7 +1403,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-another-witchery-remake.pw.toml"
-hash = "a20d408768996b2f07650544c4a9a5281fc5e39d81337f7f7d2fae14b6b5fdb0"
+hash = "ecd232339d716ed28b80456ba2b4c126412ee172c62fa0e178d5bc8c677e2ae9"
 metafile = true
 
 [[files]]
@@ -1543,7 +1533,7 @@ metafile = true
 
 [[files]]
 file = "mods/packet-fixer.pw.toml"
-hash = "2fe074d31064ee3cf0ab6b1bccdf344161179e2aaf06727c8c42d3cc0160c2e9"
+hash = "75d42d0a0bcfbcce376fb229f72b75e3a40592fdff5490b997c19ef439a9c832"
 metafile = true
 
 [[files]]
@@ -1662,6 +1652,11 @@ hash = "34cb8c09f4a19806814ff63010a62e243acda38f441a8fe396fba36e1060525c"
 metafile = true
 
 [[files]]
+file = "mods/thavma.pw.toml"
+hash = "ea229a0e72a4f4f6e3ef80170901aba6bdb47175a5506920be1dcb6bbf3e2ead"
+metafile = true
+
+[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "bbd1d4b8b1562f98c9247a29de80b0ba5447dda5b549a8b4ee732c38925b784b"
 metafile = true
@@ -1712,11 +1707,6 @@ hash = "ad155d9399b4a32e64770845f5561f996bde246ccc5eaf47fb5909e3114a7a13"
 metafile = true
 
 [[files]]
-file = "mods/valhelsia-core.pw.toml"
-hash = "c00a6ef6f5e855b3144ad48f5df41d05150c5d11cecd558704f9b827b756300d"
-metafile = true
-
-[[files]]
 file = "mods/waystones.pw.toml"
 hash = "ea16c0d61b7753a2fb969bdf00e3a3c9f5f0c0fd2d658668e379ad3c48e7d61f"
 metafile = true
@@ -1724,6 +1714,11 @@ metafile = true
 [[files]]
 file = "mods/william-wythers-overhauled-overworld.pw.toml"
 hash = "63d4a6aefa8b8231a03e6d7d4af9866673bae0b839a28964a522598cec44845c"
+metafile = true
+
+[[files]]
+file = "mods/youre-in-grave-danger.pw.toml"
+hash = "6b548f0402651a554b18cb6560bf85744d0827dfd001bb66232904e7962258e1"
 metafile = true
 
 [[files]]
