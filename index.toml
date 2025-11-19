@@ -1283,7 +1283,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "bd8e7d6b53b056bbb3e4461b6eee8d0273714cc09876d63b3905fb91a1a472ff"
+hash = "be5c86940c47192b7f731331b08362bf37174c07f1af6244944731ba8f79805c"
 metafile = true
 
 [[files]]
@@ -1293,12 +1293,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "94261122a7d8bad5b7e75529bf69823e651f6f6bf46e36d7f1091b19aeb796e1"
+hash = "e44d70c7f0b3b5157f8d7ea76a1636a068e77162ff6a008cbbb051c6a1f4d065"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
-hash = "4d5bc66c323c53d2d5dbcf1f6554efbd240e6144c431bfedf575118b5d569024"
+hash = "c6232b097778c101388c8f13e77567c8d3a651497f76e4f9af814463681c19b5"
 metafile = true
 
 [[files]]
@@ -1442,6 +1442,11 @@ hash = "908cbf89e774b114d1dc3aef4806c9d2d782cfd314be001718bb690af9b074a8"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "dc537140fc5c6915e163363c037180061647f927ad5c88c8fbb26479a3cf6ac1"
+metafile = true
+
+[[files]]
 file = "mods/lootjs.pw.toml"
 hash = "bc08dd76449dd698c1bb6d3087ee530624bf29f1efdc9262ae33fe1faf775912"
 metafile = true
@@ -1572,6 +1577,11 @@ hash = "5328219480c6d7aa255c6288f2839b683ffc1bcc52449383244cd11cfbf85f83"
 metafile = true
 
 [[files]]
+file = "mods/probejs.pw.toml"
+hash = "98bbba48eddf402b09107de563d7b4370d1ae70a1a6210054cd13065072a9d97"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "804736be3ded2a6f89f44522b88d82636209ed203c234ea34b6d6ffdd9ecee54"
 metafile = true
@@ -1613,7 +1623,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "e579a0d73f6b5fa9e5662734b2ec5bb475e98c11f901bc380a2487f7c5e6391e"
+hash = "aaf41bf7572ccbd104cf8a87bb778c95095f825d8bcb4a1855dd4705954c3547"
 metafile = true
 
 [[files]]
@@ -1644,6 +1654,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "b3add10c33e85194dd45be72ea945b9a606abbc063dd437f252ff544f6bbcdec"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "a1f20e3fbcd440ff3ba4ec8271ffe203f61e1de1fc95125b123bfe216992c7f3"
 metafile = true
 
 [[files]]
