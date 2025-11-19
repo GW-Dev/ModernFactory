@@ -133,24 +133,43 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:zombie": true
-			"minecraft:spider": true
-			"minecraft:parrot": true
-			"minecraft:armadillo": true
-			"minecraft:squid": true
-			"forbidden_arcanus:lost_soul": true
-			"minecraft:glow_squid": true
-			"minecraft:skeleton": true
-			"minecraft:zombie_villager": true
-			"minecraft:enderman": true
-			"minecraft:sheep": true
-			"minecraft:creeper": true
-			"minecraft:chicken": true
-			"minecraft:pig": true
+			"twilightforest:kobold": true
 			"minecraft:cow": true
-			"minecraft:bat": true
 			"minecraft:salmon": false
+			"minecraft:pig": true
+			"twilightforest:death_tome": true
+			"minecraft:spider": true
+			"twilightforest:penguin": true
+			"minecraft:turtle": true
+			"thavma:angry_zombie": true
+			"minecraft:glow_squid": true
+			"twilightforest:squirrel": true
+			"twilightforest:deer": true
+			"minecraft:donkey": true
+			"minecraft:zombie_villager": true
+			"twilightforest:dwarf_rabbit": true
+			"minecraft:wolf": true
+			"twilightforest:bighorn_sheep": true
+			"minecraft:bat": true
+			"twilightforest:tiny_bird": true
+			"minecraft:armadillo": true
+			"minecraft:sheep": true
 			"minecraft:horse": true
+			"minecraft:zombie": true
+			"minecraft:chicken": true
+			"twilightforest:raven": true
+			"minecraft:axolotl": true
+			"minecraft:cave_spider": true
+			"minecraft:squid": true
+			"twilightforest:boar": true
+			"minecraft:enderman": true
+			"minecraft:creeper": true
+			"twilightforest:armored_giant": true
+			"minecraft:drowned": true
+			"minecraft:parrot": true
+			"minecraft:skeleton": true
+			"forbidden_arcanus:lost_soul": true
+			"twilightforest:giant_miner": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
