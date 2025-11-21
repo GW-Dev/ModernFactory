@@ -1235,6 +1235,11 @@ hash = "bb2700ce31fc7cd121ecf07f106302303ee366b7573b77bbdd97eee955233cda"
 metafile = true
 
 [[files]]
+file = "mods/better-archeology.pw.toml"
+hash = "2f83f318618259e012cdd720b6630833fa8b6085d7856eed99f5fba48435f1b1"
+metafile = true
+
+[[files]]
 file = "mods/better-foliage-renewed.pw.toml"
 hash = "62a4c812fdf9ae0ad6dc176b9fab29e709cdbfe1c0aca0fc5287926083f3bac5"
 metafile = true
@@ -1422,6 +1427,11 @@ metafile = true
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
 hash = "83d55da193d9f9f90835d722a3fa5788b0d77e6c48e4065bae928ffe43aaf146"
+metafile = true
+
+[[files]]
+file = "mods/extended-industrialization.pw.toml"
+hash = "24d67019668f973de67ebb95c60f4d8e2db211030caba338432550dfb06f02fa"
 metafile = true
 
 [[files]]
@@ -1677,6 +1687,11 @@ metafile = true
 [[files]]
 file = "mods/max-health-fix.pw.toml"
 hash = "70db2eec093dadc990fe5862f9c3fe59a0d0de53542872eaccb5dc7f54be5fb1"
+metafile = true
+
+[[files]]
+file = "mods/mi-tweaks.pw.toml"
+hash = "c9c70a4b7339acb7e31140fcc10d42bfa47e5dd5b7677c95a41b30b6cb6cfe75"
 metafile = true
 
 [[files]]
@@ -1937,6 +1952,11 @@ metafile = true
 [[files]]
 file = "mods/william-wythers-overhauled-overworld.pw.toml"
 hash = "63d4a6aefa8b8231a03e6d7d4af9866673bae0b839a28964a522598cec44845c"
+metafile = true
+
+[[files]]
+file = "mods/yet-another-industrialization.pw.toml"
+hash = "08447a35257c4e8731afae57ad84c292aed262fea0c8a312c6727dd2009d2cae"
 metafile = true
 
 [[files]]
