@@ -285,6 +285,10 @@ file = "config/betterendisland-neoforge-1_21.toml"
 hash = "ffe069fd52a22a7967f4d012382dca670f585635cb721c2190f0595969b662af"
 
 [[files]]
+file = "config/betterfoliage-client.toml"
+hash = "452e6862644bc94187fb5443dc6631d13df78a6f2eb73e342dfdf584a738834f"
+
+[[files]]
 file = "config/betterfortresses-neoforge-1_21.toml"
 hash = "0bef433c8253f63704694528c33dc854f2b28da084d420a61c43fd62d6e5301b"
 
@@ -387,6 +391,10 @@ hash = "db7bbdc89ab05070b2a4c22f6348b0c80aca4a3c449d92cdc6bc56b5af25ff7b"
 [[files]]
 file = "config/computercraft-server.toml"
 hash = "9eaf827304515cc6ec720cb24726ce46efeea1e936d2740b3f74ec1a624fce33"
+
+[[files]]
+file = "config/configuration-options.json"
+hash = "0b68a3b324f4a172d577a10446593b8f64f38e37199c928b0fc5aee152baee00"
 
 [[files]]
 file = "config/cosmeticarmorreworked-client.toml"
@@ -493,6 +501,10 @@ file = "config/extremesoundmuffler-client.toml"
 hash = "31a037801309182a27f91d011889c5487783e287a153ab3529359f984fd6c386"
 
 [[files]]
+file = "config/fabric/indigo-renderer.properties"
+hash = "d167757e0aa8ef3d7229e7198e8036889e6c92f5ff2c7ec6bfcc200d2050e24c"
+
+[[files]]
 file = "config/farmersdelight-client.toml"
 hash = "0aef81f57e2afd3906cf175407fa0725c3186eae76f0708a87454eaa57c9d72c"
 
@@ -542,7 +554,7 @@ hash = "8918825d748fa0f95a35ca2656ba3b8f2057d5e3979c6a327210e954bae1aae7"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "0ba64310d36f02ff2c180a928d57f88512a86d35072b6059033ade54f802e3c4"
+hash = "1be814002558f42671fac22d004324c64b00b7e1d1a1e596426915ce7dea7d92"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -569,6 +581,10 @@ file = "config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
 [[files]]
+file = "config/gtmogs.yaml"
+hash = "59c42c422743d25b0883425730a24f144d73f995b749efe165721a66ca680908"
+
+[[files]]
 file = "config/guideme.toml"
 hash = "e4f58ced20ccf200592141f4afcad54a0d33faa6b672a90e58781c1a8183a036"
 
@@ -581,8 +597,20 @@ file = "config/hangglider-server.toml"
 hash = "a03d160f4cdb03b27ebef452cf4af21a358b30cdd20bbdd2c5260f3aa79b45af"
 
 [[files]]
+file = "config/hostile_neural_industrialization-startup.toml"
+hash = "45c17e6bff48fca0feecf8ffb7fbbcb056dfb568604c5ba6ea1e9164955f3f20"
+
+[[files]]
 file = "config/hostilenetworks.cfg"
 hash = "7210e168223e469592b881cc820a0fd80eadab72c224cd8851969a0e4e976d02"
+
+[[files]]
+file = "config/inventoryessentials-common-1.toml.bak"
+hash = "8f516c3ab4c64f2c64e20ac50de40365b900458c5f5099c703c7417bc069a8b6"
+
+[[files]]
+file = "config/inventoryessentials-common-2.toml.bak"
+hash = "8f516c3ab4c64f2c64e20ac50de40365b900458c5f5099c703c7417bc069a8b6"
 
 [[files]]
 file = "config/inventoryessentials-common.toml"
@@ -602,7 +630,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "b2645d2063b3713c55f60fb64c3948abf5ce0c8392792831c3c4ea8d874e93dc"
+hash = "ffe9260a710f2ace52eaf06d6ac65a94bd203b29e8e11657bbbc60a92e5a178a"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -653,6 +681,10 @@ file = "config/lithium.properties"
 hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
 
 [[files]]
+file = "config/lithostitched.json"
+hash = "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
+
+[[files]]
 file = "config/lootr-client.toml"
 hash = "d196b5c4f46f5ea21ff38a78bcda94834b48ef5554473bcab1fd3bb9effe3220"
 
@@ -681,8 +713,24 @@ file = "config/modonomicon-client.toml"
 hash = "f7301ac5c174fd4958b6a7bbca7d6211da2f4ac83f85ef87e55461a2110f9044"
 
 [[files]]
+file = "config/moonlight-client-1.toml.bak"
+hash = "678640a6e241958199af061f2bb83259591b0fedef8364769c6fa311636057fb"
+
+[[files]]
+file = "config/moonlight-client-2.toml.bak"
+hash = "678640a6e241958199af061f2bb83259591b0fedef8364769c6fa311636057fb"
+
+[[files]]
 file = "config/moonlight-client.toml"
 hash = "3f252fefef0345f9aa8a8d3b7eff02f045b8bf565329eeba9ec50c7989a63457"
+
+[[files]]
+file = "config/moonlight-common-1.toml.bak"
+hash = "91dd59a58294e96c28b6ea74f883d306c8c2e8366ea704e3cd648754134fcda7"
+
+[[files]]
+file = "config/moonlight-common-2.toml.bak"
+hash = "91dd59a58294e96c28b6ea74f883d306c8c2e8366ea704e3cd648754134fcda7"
 
 [[files]]
 file = "config/moonlight-common.toml"
@@ -742,7 +790,11 @@ hash = "eb884c5f76913c93dcdc0fe5d0ec96850d637d900d5242aedd6c6f5f3cc55971"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "4b2d4de682b0ac5880d9c3a89d860ffd0fbbadf3f31bc7f7bee03e445abf559d"
+hash = "0e5984f24420345b298deb06624224247b34fe45a2e779063226d8e6b588c077"
+
+[[files]]
+file = "config/particle_effects-client.toml"
+hash = "589948c7f6beb39b46329d04d3e18a8a42704dc790f3f1bf5c34aa538149ddc1"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -809,6 +861,10 @@ file = "config/supplementaries-common.toml"
 hash = "e4fc4edf82c0ce179180a63b3080588913e7fbd7c657f0de6496fc1a517fc1ee"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "9edbc0a7900f8446e515e3a603eb6dde591b471fed228d69e38417d772eb93c3"
+
+[[files]]
 file = "config/tiab-server.toml"
 hash = "030d096c196f30a2d1a52f33bf957ebfcefaf07c77b3f065096fd4b1f1632fe9"
 
@@ -823,62 +879,6 @@ hash = "419a23e2c00bb42a68c4285244a50d92bd63d1d16a6e08cc61ef4531fd958579"
 [[files]]
 file = "config/toastcontrol-client.toml"
 hash = "633a90a36cf0947b199e9a6737c19982d8130820a18b69aa0d16240b584ec001"
-
-[[files]]
-file = "config/tombstone-client.toml"
-hash = "a5d75697b44476b81a5abdfa2686a9300d6e619a2573a84541de1639874a4487"
-
-[[files]]
-file = "config/tombstone-common.toml"
-hash = "79af0b364c3ac2cd80f29bb3fe2fb3f2fde4712a5599ef3aa9600a6aafb49e6a"
-
-[[files]]
-file = "config/tombstone-server.toml"
-hash = "aa35cb71a908b8ce7d8547c8581ab831c1469edade5980ef9a99d67ed557c93f"
-
-[[files]]
-file = "config/tombstone/loottables/tombstone-pool-abandoned_grave.json"
-hash = "2f9c62e9bd48e1021e9436c7c4b978b6481d0387eb4cc2c41e85e516d57ec79d"
-
-[[files]]
-file = "config/tombstone/loottables/tombstone-pool-archaeology.json"
-hash = "5e4a9d4f0c7a23c0f53b03787bb72a24e3cdf46986821826a7ec36cbe2628b17"
-
-[[files]]
-file = "config/tombstone/loottables/tombstone-pool-cat_morning.json"
-hash = "e1d2a8abbc4844994f632e32087e50eff38e9811433df18e504cc6f6d9679fa4"
-
-[[files]]
-file = "config/tombstone/loottables/tombstone-pool-chest_treasure.json"
-hash = "b995aea4eec3ea13ad1652ea3fe5b6106e66faa5a9267ca8a9cf50d59c47c560"
-
-[[files]]
-file = "config/tombstone/loottables/tombstone-pool-lost_treasure.json"
-hash = "90e92fdb2592438409baf4ee6b177a35e4bf85b06458adc50c53acb2dd8f3185"
-
-[[files]]
-file = "config/tombstone/loottables/tombstone-pool-seeker_rod.json"
-hash = "9a4ea792b6befda58cf505456b140494cc8682e2e0d607e0be440fb274d5bba0"
-
-[[files]]
-file = "config/tombstone/loottables/tombstone-pool-sniffer_digging.json"
-hash = "f8c3b3bdff731ceb4409f34002e05f596853e83403bb49d5b70d803c0d2a2804"
-
-[[files]]
-file = "config/tombstone/loottables/tombstone-pool-undead_boss.json"
-hash = "a54e32b9b8219e080e159dd991c434803ac3dc2a0058a7c77f180cae04ce09a9"
-
-[[files]]
-file = "config/tombstone/loottables/tombstone-pool-undead_mob.json"
-hash = "3a4897fa8f813051ab2262bd366402b90fb5d8490ce6628b50e2407d34c185b2"
-
-[[files]]
-file = "config/tombstone/loottables/tombstone-table-chest_treasure.json"
-hash = "40bd9ad3a0593acf7952a08c8fc76e7293b33a007cfe46956252ae2d8ca2b704"
-
-[[files]]
-file = "config/tombstone/version.info"
-hash = "4d896ba5088e72d413d3a61530142fb0a0e350cf7209c52d67e34095401e5c59"
 
 [[files]]
 file = "config/treechop-client.toml"
@@ -902,11 +902,11 @@ hash = "ffc2211914005f7dd791908435e35e305f70eb91a07094740a63a639b2a8489a"
 
 [[files]]
 file = "config/twilightforest-common.toml"
-hash = "0d549a05737b751577752292e1dc8affc5dbe0b5f2592ba08e5de2ee5753b6a7"
+hash = "fb23d373fee6bf585a536538fd486552bc8b24906b4c197fcbe9cd65a4460112"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "44885b353e239751f61e91e6aadddff54ceba5d3bee1237b50a1c1f1e0790613"
+hash = "d23058e9478de9a64fac83d7d098d244a5da05f2ccc6ec42245b854c2ffcd7a5"
 
 [[files]]
 file = "config/witchery-common.toml"
@@ -917,12 +917,20 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/gtmogs/lang/en_us.json"
+hash = "9299b616f7323e2c46cb390f18ea5ef1c272da90a4f5bf745c28c783490baac0"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/client_scripts/jsconfig.json"
+hash = "f47c419ee3372e99593a1faf771e0f8eb6a422b0fd81c8634c89efd8c15b277a"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
@@ -937,6 +945,10 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/config/probe-settings.json"
+hash = "d92fa9640c3c7bd99c822648150d474c332db8368e2c0bcd202b8c860a23c6ae"
+
+[[files]]
 file = "kubejs/config/web_server.json"
 hash = "1cec95b356f13d35d9de1d35b3f0fa28644aef6406237754171096335a7e606f"
 
@@ -945,16 +957,212 @@ file = "kubejs/data/extradelight/loot_table/blocks/wild_garlic.json"
 hash = "650dc7727be60decc8d3bc929e4fba85bc3fdc8a67401789de9c2c3064ebd6af"
 
 [[files]]
+file = "kubejs/data/gtmogs/gtmogs/ore_vein/overworld_iron.json"
+hash = "cc1bd7bd21606f4c254ccb24836d8603aed5c56fefbec78ae05561c9ef1f2539"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_ancient_debris_large.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_ancient_debris_small.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_coal.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_coal_buried.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_copper_large.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_copper_small.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_diamond_buried.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_diamond_large.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_diamond_small.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_emerald.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_gold.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_gold_buried.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_iron.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_iron_small.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_lapis.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_lapis_buried.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_nether_gold.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_quartz.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_redstone.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/deepslate_ore_generator_antimony.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/deepslate_ore_generator_bauxite.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/deepslate_ore_generator_lead.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/deepslate_ore_generator_lignite_coal.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/deepslate_ore_generator_monazite.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/deepslate_ore_generator_nickel.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/deepslate_ore_generator_salt.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/deepslate_ore_generator_tin.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/deepslate_ore_generator_tungsten.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/deepslate_ore_generator_uranium.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/ore_generator_antimony.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/ore_generator_bauxite.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/ore_generator_lead.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/ore_generator_lignite_coal.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/ore_generator_monazite.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/ore_generator_nickel.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/ore_generator_salt.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/ore_generator_tin.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/ore_generator_tungsten.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/worldgen/configured_feature/ore_generator_uranium.json"
+hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
+
+[[files]]
+file = "kubejs/data/thavma/worldgen/configured_feature/ore_aer.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/thavma/worldgen/configured_feature/ore_aether.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/thavma/worldgen/configured_feature/ore_aqua.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/thavma/worldgen/configured_feature/ore_ignis.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/thavma/worldgen/configured_feature/ore_infused_stone.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/data/thavma/worldgen/configured_feature/ore_terra.json"
+hash = "ea7264356b67359e9f9951341e916a724554c903a6f36b06e7da9ce7b44bbebe"
+
+[[files]]
+file = "kubejs/server_scripts/VeinDatagen.js"
+hash = "4ce194f733f22f61c7937a8128817b0e9c2c17cd518e69094cbb064cd6ff7167"
+
+[[files]]
 file = "kubejs/server_scripts/food.js"
 hash = "293cec7caed6cd6efd28042e1d8fd63b43cb2731040f5652bb9648ae89ec611b"
 
 [[files]]
-file = "kubejs/server_scripts/main.js"
-hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+file = "kubejs/server_scripts/jsconfig.json"
+hash = "bda1bdb91bec3fa51f1b7603c582604ab876e89678982e35d8722138e60c8574"
 
 [[files]]
-file = "kubejs/startup_scripts/main.js"
-hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+file = "kubejs/startup_scripts/GTMOreBuilder.js"
+hash = "941c66ce14c8d1b915a23560bd51965a13913719aabcc61585ae620c59a166b1"
+
+[[files]]
+file = "kubejs/startup_scripts/jsconfig.json"
+hash = "5d1d34f9763eb77f2e30b9fb62a8f4f056149b2c162b113157265ddef1b8dad3"
+
+[[files]]
+file = "kubejs/startup_scripts/ore_world_gen_layers.js"
+hash = "e68df8506d6b1ed47b14bb231285d92c342053a1190b42b553c2414bc26f0fe5"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
@@ -997,6 +1205,11 @@ hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
 
 [[files]]
+file = "mods/athena.pw.toml"
+hash = "e1599947a8d78f74c129a8420569bb2453b2ce76fdc76a7151093923ea8366c9"
+metafile = true
+
+[[files]]
 file = "mods/attributefix.pw.toml"
 hash = "a445471ac6843bcf9fb76eabb4357de0357dfa7782be536a7827a26764fe45c1"
 metafile = true
@@ -1024,6 +1237,11 @@ metafile = true
 [[files]]
 file = "mods/better-foliage-renewed.pw.toml"
 hash = "62a4c812fdf9ae0ad6dc176b9fab29e709cdbfe1c0aca0fc5287926083f3bac5"
+metafile = true
+
+[[files]]
+file = "mods/betterblockz.pw.toml"
+hash = "1ec654810443b80e3ae6f917a0c765a256cbe75ebb1363404c49e29c5981a43e"
 metafile = true
 
 [[files]]
@@ -1288,7 +1506,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "48172cddf0c2014e76b1d06bc9fd84297019610cd57d4099f4cf4c1b263ae328"
+hash = "7fde0004969ce0abb8966ed51f8b1e5714ecfef06a2ac45900ceb1c6fc54d4b2"
 metafile = true
 
 [[files]]
@@ -1438,7 +1656,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "908cbf89e774b114d1dc3aef4806c9d2d782cfd314be001718bb690af9b074a8"
+hash = "3ac8c76f4cb2f1200d60fa2e74108d9cb9355346ddb8a4a735134dfac7b77136"
 metafile = true
 
 [[files]]
@@ -1648,7 +1866,7 @@ metafile = true
 
 [[files]]
 file = "mods/spice-of-life-onion.pw.toml"
-hash = "040cd2ea99fe56de44c97d40fd6f379112775180f09daa812f4c79470fe1c967"
+hash = "c5968abb16ab6f5dae7cc862d613fb5bedccd7c73c8b42479ae55e07da1a8853"
 metafile = true
 
 [[files]]
@@ -1669,11 +1887,6 @@ metafile = true
 [[files]]
 file = "mods/thavma.pw.toml"
 hash = "ea229a0e72a4f4f6e3ef80170901aba6bdb47175a5506920be1dcb6bbf3e2ead"
-metafile = true
-
-[[files]]
-file = "mods/the-twilight-forest.pw.toml"
-hash = "bbd1d4b8b1562f98c9247a29de80b0ba5447dda5b549a8b4ee732c38925b784b"
 metafile = true
 
 [[files]]
@@ -1709,11 +1922,6 @@ metafile = true
 [[files]]
 file = "mods/trenzalore.pw.toml"
 hash = "97b31515b4ea9f529c8d41770bc4e584321929b014bd5ab460905114de17492b"
-metafile = true
-
-[[files]]
-file = "mods/twilights-flavors-delight.pw.toml"
-hash = "11a65afb5c8805608f99d10a41861e955241bbe17ab44311e122d7f294f2d4a2"
 metafile = true
 
 [[files]]

@@ -33,10 +33,8 @@ ServerEvents.generateData("before_mods", (_) => {
     for (let i = 0; i < ores.length; i++) {
       if (Item.exists(`minecraft:${vein.dim.blockPrefix}${ores[i]}_ore`)) {
         ores[i] = `minecraft:${vein.dim.blockPrefix}${ores[i]}_ore`;
-      } else if (Item.exists(`forbidden_arcanus:${ores[i]}_ore`)) {
-        ores[i] = `forbidden_arcanus:${ores[i]}_ore`;
-      } else if (Item.exists(`forbidden_arcanus:${ores[i]}`)) {
-        ores[i] = `forbidden_arcanus:${ores[i]}`;
+      } else if (Item.exists(`thavma:${ores[i]}_infused_stone`)) {
+        ores[i] = `thavma:${ores[i]}_infused_stone`;
       } else {
         ores[
           i
