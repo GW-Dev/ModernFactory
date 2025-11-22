@@ -1235,11 +1235,6 @@ hash = "bb2700ce31fc7cd121ecf07f106302303ee366b7573b77bbdd97eee955233cda"
 metafile = true
 
 [[files]]
-file = "mods/better-archeology.pw.toml"
-hash = "2f83f318618259e012cdd720b6630833fa8b6085d7856eed99f5fba48435f1b1"
-metafile = true
-
-[[files]]
 file = "mods/better-foliage-renewed.pw.toml"
 hash = "62a4c812fdf9ae0ad6dc176b9fab29e709cdbfe1c0aca0fc5287926083f3bac5"
 metafile = true
