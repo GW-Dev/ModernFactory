@@ -49,6 +49,8 @@
   "complexityNeutralEffectModifier": 0,
   "complexityHarmEffectModifier": -0.2,
   "trackedFoodDiversityDecay": true,
+  "disableDiversityCalculations": false,
+  "disabledDefaultDiversity": 1,
   "foodDiversity": [
     {
       "ingredient": "{id:\"item\",item:\"minecraft:golden_carrot\"}",
