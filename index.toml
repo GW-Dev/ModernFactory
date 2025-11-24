@@ -245,6 +245,14 @@ file = "config/betteradvancements-client.toml"
 hash = "38e88509078026a5a660e00947e5a6db74a3c374c8c7978ef64c360167f84db9"
 
 [[files]]
+file = "config/betterarcheology.jsonc"
+hash = "d79f3120a5a4d7185074d3e791574efefa5c5b6c2db034e0c625ca372fe8804f"
+
+[[files]]
+file = "config/betterblockz-common.toml"
+hash = "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953"
+
+[[files]]
 file = "config/bettercaves/README.txt"
 hash = "e6f25132180339d5b7f53c1f5473f28cdf743f76292bc8f87142e4b0300e0f2c"
 
@@ -489,6 +497,14 @@ file = "config/exmi/enable_config.json"
 hash = "915f23f69f114854e4e067dc463b2f71370cf8d291c0611decf50655f5054e47"
 
 [[files]]
+file = "config/extended_industrialization-client.toml"
+hash = "323720e92af2510aea3e8ed8fc54fb0bb789d69b76c84aa2f501c428cf6964c8"
+
+[[files]]
+file = "config/extended_industrialization-startup.toml"
+hash = "71ceff49b5cc57f9fe8a2ef237a381bb099843f2d45a32a8a8c94007809865d8"
+
+[[files]]
 file = "config/extendedae-common.toml"
 hash = "d9bdb8e3cc95095a3bb22d0257c2b374ebf8a0b92bbeacfd1bbb62d40b7ef087"
 
@@ -502,7 +518,7 @@ hash = "31a037801309182a27f91d011889c5487783e287a153ab3529359f984fd6c386"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "d167757e0aa8ef3d7229e7198e8036889e6c92f5ff2c7ec6bfcc200d2050e24c"
+hash = "088edf3712e6d1fdc5f6b731a89fd8919e22f11f47ff9d2c39323388ff7b79a0"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -554,7 +570,7 @@ hash = "8918825d748fa0f95a35ca2656ba3b8f2057d5e3979c6a327210e954bae1aae7"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "1be814002558f42671fac22d004324c64b00b7e1d1a1e596426915ce7dea7d92"
+hash = "099c9c8c1ac1d7e9681f9e1abc49c043da7ff2d7c6356c4eac7718c233d11a7c"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -630,7 +646,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "ffe9260a710f2ace52eaf06d6ac65a94bd203b29e8e11657bbbc60a92e5a178a"
+hash = "f463e169b00f5ad03b7d8f704b23d7e5e46a42850714a70326dd83630a19c6f5"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -695,6 +711,10 @@ hash = "0092d1efe145a764003908c75ca6d305435fd322edf88a14e4d2651c77c408dd"
 [[files]]
 file = "config/maxhealthfix.json"
 hash = "f25e0012be339dc6020bc892faea1c9765466a16fd1bb4174c00d885270a9241"
+
+[[files]]
+file = "config/mi_tweaks-startup.toml"
+hash = "643084ceb9b0284e5a7c3dc5293b023fbf5ef240e9f4737312cdb5aacf2ef147"
 
 [[files]]
 file = "config/modern_industrialization-client.toml"
@@ -790,7 +810,7 @@ hash = "eb884c5f76913c93dcdc0fe5d0ec96850d637d900d5242aedd6c6f5f3cc55971"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "0e5984f24420345b298deb06624224247b34fe45a2e779063226d8e6b588c077"
+hash = "b4307e3c10061d8057db160834b1bd8374289e85d462fb3b53e342aa233c2ea7"
 
 [[files]]
 file = "config/particle_effects-client.toml"
@@ -850,7 +870,7 @@ hash = "3b25083488df1b392b417e202ade95037aee601ff4a564067c2b1d67fff60aa0"
 
 [[files]]
 file = "config/solonion.json"
-hash = "ad15000f576d807d57a52b0b99f6bdbd02faeca4b9c4ad01a9e1d4137ce845d3"
+hash = "105d00b0b515d8fff493d00768d95cc41d35d4ac24e08b075eebe2fae16b8f9f"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -913,6 +933,14 @@ file = "config/witchery-common.toml"
 hash = "2fa2ee87c195511c04c3e52612d4d1fc8217994827df5fdaf555af550f4f3b30"
 
 [[files]]
+file = "config/yet_another_industrialization-startup.toml"
+hash = "5c9965c6cd5e76ea2cb8893efc02f0bea16d9ade39a62e63032ccfb03e853bca"
+
+[[files]]
+file = "config/yigd.json"
+hash = "01d786aee2f7eca99d6b043a1bd1dc06aae50b8b96f003310fcee8213e668228"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -925,8 +953,60 @@ file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/bronze_axe.png"
+hash = "a226665705f46cd31f1641962678328b6c475c1d0a38f2cbcf4e611c998ee630"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/bronze_boots.png"
+hash = "19f417dfd6638bccf6fb56512e50891e1f4a43986e3b6e294b6b7e569f08816f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/bronze_chestplate.png"
+hash = "541d50a91a14ff03b8a897792f6d0a340ab823adca7134dbd041eb5fd1c3a8b7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/bronze_helmet.png"
+hash = "7be94026fb7c6726d7ce583e80b758846ca27fb25472304afadb64cb4b1aefd6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/bronze_hoe.png"
+hash = "4342435632a95639f5bbf1b25adf00509afd99cf498028b832f5723491eb219c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/bronze_leggings.png"
+hash = "ef2ff6df9c2e94573a1db2f8021522bc42c266cdf8fc08dcdf3bafac4d277fdc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/bronze_pickaxe.png"
+hash = "cba60053360456c1beb40d47aa8d5aafe6fbc6fbc66ce7ffde92f25f8c907020"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/bronze_shovel.png"
+hash = "5243c5b24b5780c9290ae2e1ae86b12a96827fa1cee5a9078b90692b429646bb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/bronze_sword.png"
+hash = "ea8d92813f14102c3cbe7826db134cd5d714d446a427fb1a9fc65a887f437136"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/healing_axe.png"
+hash = "b39fb63cb4722ed060aeed7e6f405a0ccf73f733623a01ccb18fd06353583b7c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/healing_axe_head.png"
+hash = "2699b8f07080688b31b2cfa495180edb80e6a4b8e4fe34f57750c1f7550b9efd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/models/armor/bronze_layer_1.png"
+hash = "0fdd553553d0d54fbb068afd627c48a02a8f739e5ca738d4b52ea80f994ead7f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/models/armor/bronze_layer_2.png"
+hash = "057c78649ec4800c445be7e3a4fbf113fc3d100389a6dc22289c886c674e9e6d"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -1146,11 +1226,19 @@ hash = "4ce194f733f22f61c7937a8128817b0e9c2c17cd518e69094cbb064cd6ff7167"
 
 [[files]]
 file = "kubejs/server_scripts/food.js"
-hash = "293cec7caed6cd6efd28042e1d8fd63b43cb2731040f5652bb9648ae89ec611b"
+hash = "940a88c0761840b44aa101d991130a1cb939d6781a375f26a80d4dea9419bfae"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
 hash = "bda1bdb91bec3fa51f1b7603c582604ab876e89678982e35d8722138e60c8574"
+
+[[files]]
+file = "kubejs/server_scripts/stone_age.js"
+hash = "59f9622a88e5e261338b970e06314b0671c23e8a69e28612857b87026d7f71a4"
+
+[[files]]
+file = "kubejs/server_scripts/vanilla_changes.js"
+hash = "d56aebbfbcf71e7007d8d77fa8e42ed9e7a9d0f5cd4a484ce316f498caab6e30"
 
 [[files]]
 file = "kubejs/startup_scripts/GTMOreBuilder.js"
@@ -1161,8 +1249,12 @@ file = "kubejs/startup_scripts/jsconfig.json"
 hash = "5d1d34f9763eb77f2e30b9fb62a8f4f056149b2c162b113157265ddef1b8dad3"
 
 [[files]]
-file = "kubejs/startup_scripts/ore_world_gen_layers.js"
-hash = "e68df8506d6b1ed47b14bb231285d92c342053a1190b42b553c2414bc26f0fe5"
+file = "kubejs/startup_scripts/platform_rename.js"
+hash = "2bfb1f6455947b4b43a37b02cc8737f779d2add69faa3bb843df197f613ee040"
+
+[[files]]
+file = "kubejs/startup_scripts/tools.js"
+hash = "f52bf0cfcecb66c457b809fc8b966ae7c7711e605f6ae0f994dd859b87503d2a"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
@@ -1191,7 +1283,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
-hash = "bcad9c48693a7f88f4d7e8bad3687a0cf890c4eefd71a1ea59aca9a1a14959d5"
+hash = "7a3b9a13c92c9f847974629ea49e92a7b684aff15dd3be019d845c746d88682b"
 metafile = true
 
 [[files]]
@@ -1641,7 +1733,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "3216eeda2cbcf86da017bf0c92416147e0ae77cb59c546b0752769ed16217cc5"
+hash = "f88aeaf0647ae681ba2b625ec1b75628c0aced49887af7565223c61ffd5b0088"
 metafile = true
 
 [[files]]
@@ -1676,7 +1768,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "20084e6c096135548dbceb71e6adb7ed2cdaa66dc4e3e2e3bc2055091e109bbe"
+hash = "f77b8754dd0575f002a7bba9f425633d6a25f01532e1bd68e945087b41f33d76"
 metafile = true
 
 [[files]]
@@ -1896,7 +1988,7 @@ metafile = true
 
 [[files]]
 file = "mods/thavma.pw.toml"
-hash = "ea229a0e72a4f4f6e3ef80170901aba6bdb47175a5506920be1dcb6bbf3e2ead"
+hash = "d0452472722184ede1dd8558793b79a68fe6836654bd8298579480c6b356752c"
 metafile = true
 
 [[files]]

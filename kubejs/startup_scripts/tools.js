@@ -35,7 +35,8 @@ StartupEvents.registry("armor_material", (event) => {
 StartupEvents.registry('item', event => {
  
   // healing axe
-  event.create('healing_axe', 'axe').tier('diamond')
+  event.create('healing_axe_head').unstackable().glow(true)
+  event.create('healing_axe', 'axe').tier('diamond').glow(true)
 
   // bronze items
   event.create('bronze_axe', 'axe').tier('bronze')
