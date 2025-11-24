@@ -245,10 +245,6 @@ file = "config/betteradvancements-client.toml"
 hash = "38e88509078026a5a660e00947e5a6db74a3c374c8c7978ef64c360167f84db9"
 
 [[files]]
-file = "config/betterarcheology.jsonc"
-hash = "d79f3120a5a4d7185074d3e791574efefa5c5b6c2db034e0c625ca372fe8804f"
-
-[[files]]
 file = "config/betterblockz-common.toml"
 hash = "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953"
 
@@ -493,10 +489,6 @@ file = "config/enchdesc.json"
 hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
 
 [[files]]
-file = "config/exmi/enable_config.json"
-hash = "915f23f69f114854e4e067dc463b2f71370cf8d291c0611decf50655f5054e47"
-
-[[files]]
 file = "config/extended_industrialization-client.toml"
 hash = "323720e92af2510aea3e8ed8fc54fb0bb789d69b76c84aa2f501c428cf6964c8"
 
@@ -549,10 +541,6 @@ file = "config/fml.toml"
 hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
 
 [[files]]
-file = "config/forbidden_arcanus-common.toml"
-hash = "7d3dbac2eff234d2b3dfa7a969287f3d7fdfc6450d9287299f09f6961480cb1f"
-
-[[files]]
 file = "config/forgivingvoid-common.toml"
 hash = "84d193e0d0b2fbf606c57913911b6e1577fb799813128887a92cebf3f3367c6c"
 
@@ -598,7 +586,7 @@ hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
 [[files]]
 file = "config/gtmogs.yaml"
-hash = "59c42c422743d25b0883425730a24f144d73f995b749efe165721a66ca680908"
+hash = "229b79d5555f73d90f6c170c8f9291e33a116d5a324622f1d6e93dc28f96a163"
 
 [[files]]
 file = "config/guideme.toml"
@@ -907,22 +895,6 @@ hash = "ffc1a7e9ff53a47a30ab571c536c78c77ad3899ebb81fe3bb736e1198c2027b8"
 [[files]]
 file = "config/treechop-common.toml"
 hash = "1ab671e18fba6c422ea0e103914e0d912b25ea4e13341c3d88e292bb5d459498"
-
-[[files]]
-file = "config/twilightdelight-client.toml"
-hash = "cc631d040c7c49df641883ddbfd215865eb6f2ec54b8b5e25b51a376caabc331"
-
-[[files]]
-file = "config/twilightdelight-server.toml"
-hash = "5cfdb2c50288b0d9c78555d0250cd25f198bf8e82d114a830fccb866eda6fb07"
-
-[[files]]
-file = "config/twilightforest-client.toml"
-hash = "ffc2211914005f7dd791908435e35e305f70eb91a07094740a63a639b2a8489a"
-
-[[files]]
-file = "config/twilightforest-common.toml"
-hash = "fb23d373fee6bf585a536538fd486552bc8b24906b4c197fcbe9cd65a4460112"
 
 [[files]]
 file = "config/waystones-common.toml"
