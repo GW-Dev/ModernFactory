@@ -1372,11 +1372,6 @@ hash = "893fdff8f8874afad2fbf8ca68818cf3105759ff4286d01bcfb0cf2451b21061"
 metafile = true
 
 [[files]]
-file = "mods/chisel-reborn.pw.toml"
-hash = "53585ee2041174626662b53c08795a14d038874359079add62df022b64e6b9bd"
-metafile = true
-
-[[files]]
 file = "mods/clickable-advancements.pw.toml"
 hash = "7b5c86be25546796eb891e4444e0478aaf93d3515e57df4fd20cdda0daa05a52"
 metafile = true
@@ -1519,11 +1514,6 @@ metafile = true
 [[files]]
 file = "mods/extended-industrialization.pw.toml"
 hash = "24d67019668f973de67ebb95c60f4d8e2db211030caba338432550dfb06f02fa"
-metafile = true
-
-[[files]]
-file = "mods/extra-mod-integrations.pw.toml"
-hash = "2acfb5ef4452508a69d1e1054fb318ce6df1f16afbbca396b8dc3199b4ba9ac6"
 metafile = true
 
 [[files]]
