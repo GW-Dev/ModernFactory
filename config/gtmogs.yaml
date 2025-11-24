@@ -34,13 +34,13 @@ compat:
     # Toggle specific map mod integration on/off (need to restart for this to take effect)
     toggle:
       # FTB Chunks integration enabled
-      ftbChunksIntegration: false
+      ftbChunksIntegration: true
 
       # Journey Map integration enabled
       journeyMapIntegration: true
 
       # Xaero's map integration enabled
-      xaerosMapIntegration: false
+      xaerosMapIntegration: true
 
     # The radius, in blocks, that clicking an ore block will search for veins in.
     # -1 to disable
