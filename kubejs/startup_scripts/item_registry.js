@@ -48,4 +48,5 @@ StartupEvents.registry('item', event => {
   event.create('bronze_pickaxe', 'pickaxe').tier('bronze')
   event.create('bronze_shovel', 'shovel').tier('bronze')
   event.create('bronze_sword', 'sword').tier('bronze')
+  event.create('tanned_leather')
 })
