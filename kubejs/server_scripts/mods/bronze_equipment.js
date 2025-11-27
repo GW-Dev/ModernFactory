@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let mf = (id) => `modern_factory:stone_age/${id}`;
+    let mf = (id) => `modern_factory:bronze_equipment/${id}`;
 
 
     // bronze boots
@@ -91,10 +91,4 @@ ServerEvents.recipes(event => {
         B: '#c:rods/wooden'
     }).id(mf('bronze_hoe'))
 
-    // starter bronze nugget recipe
-    event.recipes.modern_industrialization.primitive_furnace(1, 400)
-        .itemIn(mi('bronze_dust'))
-        .itemOut(mi('bronze_nugget'))
-        .adjacentBlock(mc('campfire'), 'below')
-        .id(mf('first_bronze'))
 })
