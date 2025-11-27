@@ -21,21 +21,19 @@ ServerEvents.recipes(event => {
         mc('copper_ingot_from_blasting_raw_copper'),
         mc('gold_ingot_from_smelting_raw_gold'),
         mc('gold_ingot_from_blasting_raw_gold'),
-        fb('framing_saw/framed_item_frame'),
-        fb('framing_saw/framed_glowing_item_frame'),
-        th('goggles_arcane_workbench'),
-        th('thavmite_vanguard_helmet_infusion'),
-        th('thavmite_vanguard_chestplate_infusion'),
-        th('thavmite_vanguard_leggings_infusion'),
-        th('thavmite_vanguard_boots_infusion'),
-        es('ender_pouch'),
-        cc('printed_book'),
-        fd('book_from_canvas'),
         mc('furnace'),
         mc('paper'),
+        mc('piston'),
         mc('sugar_from_sugar_cane'),
-        fd('paper_from_tree_bark'),
-        su('lunch_basket')
+        mc('iron_bars'),
+        mc('bucket'),
+        mc('ender_eye'),
+        mc('bread'),
+        mc('netherite_ingot'),
+        mc('clock'),
+        mc('compass'),
+        mc('chain'),
+        mc('blaze_powder')
     ];
     VANILLA_DELETED_SMELTING.forEach(id => event.remove( {id: id} ));
 
@@ -98,70 +96,10 @@ ServerEvents.recipes(event => {
         )
     })
 
-        // -- CUSTOM RECIPE UTILITY FUNCTION -- //
-    let drying = (id, cook_time, xp, item_inputs, item_outputs) => {
-        let newRecipe = {
-            type: ed('drying_rack'),
-            cookingtime: cook_time,
-            experience: xp,
-            result: item_outputs
-        }
-        if (item_inputs)
-            newRecipe['ingredient'] = item_inputs;
-        event.custom(newRecipe).id(id);
-    }
-
-    // tanned leather recipe
-    drying(
-        mf('tanned_leather'),
-        2000,
-        10.0,
-        [ {tag: 'c:leathers'} ],
-        {
-            count: 1,
-            id: kj('tanned_leather')
-        }
-    )
-
-    event.smelting(
-        su('ash'),
-        mi('wood_pulp')
-    ).cookingTime(200).id(mf('ash_from_wood_pulp'))
-
     event.replaceInput(
         {input: mc('leather')},
         mc('leather'),
         kj('tanned_leather')
-    )
-
-    event.replaceInput(
-        {id: hg('glider_wing')},
-        mc('stick'),
-        mi('bronze_rod')
-    )
-
-    event.replaceInput(
-        {id: hg('glider_framework')},
-        mc('iron_ingot'),
-        mi('iron_rod')
-    )
-
-    event.replaceInput(
-        {id: 'morphtool:tool'},
-        mc('iron_ingot'),
-        mi('iron_rod')
-    )
-
-    event.replaceInput(
-        {id: mc('piston')},
-        mc('iron_ingot'),
-        mi('iron_rod')
-    )
-
-    event.replaceInput(
-        {id: mc('glider_framework')},
-        mc('iron_ingot'),
-        mi('bronze_ingot')
     )
 
     event.shaped(Item.of(mc('furnace')),
@@ -175,15 +113,94 @@ ServerEvents.recipes(event => {
 
     }).id(mf('furnace'))
 
-        event.shaped(Item.of(mt('primitive_furnace')),
-    [   'AAA',
-        'ABA',
-        'AAA'
+    // -- BUNDLE -- //
+    event.shaped(mc('bundle'), [
+        ' S ',
+        'L L',
+        ' L '
     ],
     {
-        A: mc('mud_bricks'),
-        B: mc('campfire')
+        S: '#c:strings',
+        L: '#c:leathers'
+    })
+    .id(mf('bundle'));
 
-    }).id(mf('primitive_furnacr'))
+    // -- PISTON -- //
+    event.shaped(mc('piston'), [
+        'WWW',
+        'CIC',
+        'CRC'
+    ],
+    {
+        W: '#minecraft:wooden_slabs',
+        C: '#minecraft:stone_tool_materials',
+        I: '#c:rods/iron',
+        R: '#c:dusts/redstone'
+    })
+    .id(mf('piston'));
+
+    // -- IRON BARS -- //
+    event.shaped('16x ' + mc('iron_bars'), [
+        'RRR',
+        'RRR'
+    ],
+    {
+        R: '#c:rods/iron'
+    })
+    .id(mf('iron_bars'));
+
+    // -- BUCKET -- //
+    event.shaped(mc('bucket'), [
+        'P P',
+        ' P '
+    ],
+    {
+        P: '#c:plates/iron'
+    })
+    .id(mf('bucket'));
+
+    event.shaped('16x ' + mc('stick'), [
+        'L',
+        'L'
+    ],
+    {
+        L: '#minecraft:logs'
+    })
+    .id(mf('sticks_from_log'));
+
+     // -- CLOCK -- //
+    event.shaped(mc('clock'), [
+        ' R ',
+        'RGR',
+        ' R '
+    ],
+    {
+        R: mc('redstone'),
+        G: mi('gold_ring')
+    })
+    .id(mf('clock'));
+
+    // -- COMPASS -- //
+    event.shaped(mc('compass'), [
+        ' R ',
+        'ROR',
+        ' R '
+    ],
+    {
+        R: mc('redstone'),
+        O: mi('iron_ring')
+    })
+    .id(mf('compass'));
+    
+    // -- CHAINS -- //
+    event.shaped('8x ' + mc('chain'), [
+        'O',
+        'O',
+        'O'
+    ], 
+    {
+        O: mi('iron_ring')
+    })
+    .id(mf('chain'));
 
 })
