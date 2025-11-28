@@ -18,9 +18,15 @@ ServerEvents.recipes(event => {
         su('lunch_basket'),
         mr('soldering_table'),
         mr('red_alloy_ingot'),
-        'craftingstation:crafting_station'
+        'craftingstation:crafting_station',
+        fd('diamond_knife'),
+        ed('offset_spatula_diamond'),
+        ed('diamond_spoon'),
+        mr('red_alloy_wire')
     ];
     RECIPES_TO_REMOVE.forEach(id => event.remove( {id: id} ));
+
+    event.remove({type: mr('soldering')})
 
     // -- CUSTOM RECIPE UTILITY FUNCTION -- //
     let drying = (id, cook_time, xp, item_inputs, item_outputs) => {
@@ -131,5 +137,47 @@ ServerEvents.recipes(event => {
             .itemOut('8x ' + mr(`${DYE_COLORS}_network_cable`))
             .id(mf(`${DYE_COLORS}_red_alloy_cable`))
     })
+
+    // -- DIAMOND KNIFE -- //
+    event.shaped(fd('diamond_knife'), [
+        '   ',
+        ' ID',
+        ' S '
+    ],
+    {
+        S: mc('stick'),
+        I: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('diamond_knife'));
+
+    // -- DIAMOND OFFSET SPATULA -- //
+    event.shaped(ed('offset_spatula_diamond'), [
+        ' IS',
+        'D  ',
+        '   '
+    ],
+    {
+        S: mc('stick'),
+        I: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('offset_spatula_diamond'));
+
+    // -- DIAMOND SPOON -- //
+    event.shaped(ed('diamond_spoon'), [
+        '  D',
+        ' I ',
+        'S  '
+    ],
+    {
+        S: mc('stick'),
+        I: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('diamond_spoon'));
 
     })

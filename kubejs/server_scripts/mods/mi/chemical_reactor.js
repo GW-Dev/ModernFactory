@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let mf = (id) => `modern_factory:modern_industrialization/chemical_reacotr/${id}`;
+    let mf = (id) => `modern_factory:modern_industrialization/chemical_reactor/${id}`;
 
 
     // eye of ender recipe

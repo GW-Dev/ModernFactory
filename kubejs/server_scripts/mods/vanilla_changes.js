@@ -33,7 +33,20 @@ ServerEvents.recipes(event => {
         mc('clock'),
         mc('compass'),
         mc('chain'),
-        mc('blaze_powder')
+        mc('blaze_powder'),
+        mc('diamond_helmet'),
+        mc('diamond_chestplate'),
+        mc('diamond_leggings'),
+        mc('diamond_boots'),
+        mc('diamond_shovel'),
+        mc('diamond_pickaxe'),
+        mc('diamond_axe'),
+        mc('diamond_hoe'),
+        mc('diamond_sword'),
+        mc('cauldron'),
+        mc('brewing_stand'),
+        mc('enchanting_table'),
+        mc('beacon')
     ];
     VANILLA_DELETED_SMELTING.forEach(id => event.remove( {id: id} ));
 
@@ -202,5 +215,152 @@ ServerEvents.recipes(event => {
         O: mi('iron_ring')
     })
     .id(mf('chain'));
+
+    // -- DIAMOND HELMET -- //
+    event.shaped(mc('diamond_helmet'), [
+        'SSS',
+        'D D',
+        '   '
+    ],
+    {
+        S: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('diamond_helmet'));
+
+    // -- DIAMOND CHESTPLATE -- //
+    event.shaped(mc('diamond_chestplate'), [
+        'S S',
+        'DSD',
+        'DDD'
+    ],
+    {
+        S: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('diamond_chestplate'));
+
+    // -- DIAMOND LEGGINGS -- //
+    event.shaped(mc('diamond_leggings'), [
+        'SSS',
+        'D D',
+        'D D'
+    ],
+    {
+        S: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('diamond_leggings'));
+
+    // -- DIAMOND BOOTS -- //
+    event.shaped(mc('diamond_boots'), [
+        'S S',
+        'D D',
+        '   '
+    ],
+    {
+        S: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('diamond_boots'));
+
+    // -- DIAMOND SHOVEL -- //
+    event.shaped(mc('diamond_shovel'), [
+        ' D ',
+        ' I ',
+        ' S '
+    ],
+    {
+        S: mc('stick'),
+        I: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('diamond_shovel'));
+
+    // -- DIAMOND HOE -- //
+    event.shaped(mc('diamond_hoe'), [
+        'DI ',
+        ' S ',
+        ' S '
+    ],
+    {
+        S: mc('stick'),
+        I: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('diamond_hoe'));
+
+    // -- DIAMOND PICKAXE -- //
+    event.shaped(mc('diamond_pickaxe'), [
+        'DID',
+        ' S ',
+        ' S '
+    ],
+    {
+        S: mc('stick'),
+        I: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('diamond_pickaxe'));
+
+    // -- DIAMOND AXE -- //
+    event.shaped(mc('diamond_axe'), [
+        'DI ',
+        'DS ',
+        ' S '
+    ],
+    {
+        S: mc('stick'),
+        I: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('diamond_axe'));
+
+    // -- DIAMOND SWORD -- //
+    event.shaped(mc('diamond_sword'), [
+        ' D ',
+        ' I ',
+        ' S '
+    ],
+    {
+        S: mc('stick'),
+        I: '#c:plates/steel',
+        D: '#c:plates/diamond'
+
+    })
+    .id(mf('diamond_sword'));
+
+    // -- CAULDRON -- //
+    event.shaped(mc('cauldron'), [
+        'S S',
+        'S S',
+        'SSS'
+    ],
+    {
+        S: '#c:plates/steel'
+
+    })
+    .id(mf('cauldron'));
+
+    // -- BREWING STAND -- //
+    event.shaped(mc('brewing_stand'), [
+        ' B ',
+        'SSS',
+        '   '
+    ],
+    {
+        B: mc('blaze_rod'),
+        S: '#c:plates/steel'
+
+    })
+    .id(mf('brewing_stand'));
 
 })
