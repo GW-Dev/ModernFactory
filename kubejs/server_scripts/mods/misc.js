@@ -34,6 +34,14 @@ ServerEvents.recipes(event => {
         hni('hostilenetworks/simulation_chamber_assembler'),
         hni('hostilenetworks/deep_learner_assembler'),
         hni('hostilenetworks/blank_data_model_assembler'),
+        fb('framing_saw'),
+        fb('powered_framing_saw'),
+        bg('template_manager'),
+        bg('gadget_building'),
+        bg('gadget_exchanging'),
+        bg('gadget_copy_paste'),
+        bg('gadget_cut_paste'),
+        bg('gadget_destruction'),
     ];
     RECIPES_TO_REMOVE.forEach(id => event.remove( {id: id} ));
 
@@ -189,5 +197,124 @@ ServerEvents.recipes(event => {
 
     })
     .id(mf('diamond_spoon'));
+
+    // -- FRAMING SAW -- //
+    event.shaped(fb('framing_saw'), [
+        ' B ',
+        'FFF',
+        'III'
+    ],
+    {
+        B: mi('invar_rotary_blade'),
+        F: fb('framed_cube'),
+        I: mi('iron_plate')
+
+    })
+    .id(mf('framing_saw'));
+
+    // -- POWERED FRAMING SAW -- //
+    event.shaped(fb('powered_framing_saw'), [
+        ' S ',
+        'AFA',
+        'RAR'
+    ],
+    {
+        S: fb('framing_saw'),
+        F: fb('framed_cube'),
+        A: mi('analog_circuit'),
+        R: mi('robot_arm')
+
+    })
+    .id(mf('powered_framing_saw'));
+
+
+    // -- TEMPLATE MANAGER -- //
+    event.shaped(bg('template_manager'), [
+        'SSS',
+        'AFA',
+        'SSS'
+    ],
+    {
+        S: mi('steel_plate'),
+        F: mr('red_alloy_ingot'),
+        A: mi('analog_circuit'),
+
+    })
+    .id(mf('template_manager'));
+
+    // -- BUILDING GADGET -- //
+    event.shaped(bg('gadget_building'), [
+        'SFS',
+        'DFD',
+        'SAS'
+    ],
+    {
+        S: mi('steel_plate'),
+        F: mr('red_alloy_ingot'),
+        D: mi('diamond_plate'),
+        A: mi('analog_circuit'),
+
+    })
+    .id(mf('building_gadget'));
+
+    // -- EXCHANGING GADGET -- //
+    event.shaped(bg('gadget_exchanging'), [
+        'SFS',
+        'DAD',
+        'SAS'
+    ],
+    {
+        S: mi('steel_plate'),
+        F: mr('red_alloy_ingot'),
+        D: mi('diamond_plate'),
+        A: mi('analog_circuit'),
+
+    })
+    .id(mf('exchanging_gadget'));
+
+    // -- COPY PASTE GADGET -- //
+    event.shaped(bg('gadget_copy_paste'), [
+        'SFS',
+        'EFE',
+        'SAS'
+    ],
+    {
+        S: mi('steel_plate'),
+        F: mr('red_alloy_ingot'),
+        E: mi('emerald_plate'),
+        A: mi('analog_circuit'),
+
+    })
+    .id(mf('copy_paste_gadget'));
+
+    // -- CUT PASTE GADGET -- //
+    event.shaped(bg('gadget_cut_paste'), [
+        'SFS',
+        'EFE',
+        'SAS'
+    ],
+    {
+        S: mi('steel_plate'),
+        F: mr('red_alloy_ingot'),
+        E: mi('invar_rotary_blade'),
+        A: mi('analog_circuit'),
+
+    })
+    .id(mf('cut_paste_gadget'));
+
+    // -- DESTRUCTION GADGET -- //
+    event.shaped(bg('gadget_destruction'), [
+        'SFS',
+        'EFE',
+        'SAS'
+    ],
+    {
+        S: mi('steel_plate'),
+        F: mr('red_alloy_ingot'),
+        E: mc('ender_eye'),
+        A: mi('analog_circuit'),
+
+    })
+    .id(mf('destruction_gadget'));
 
     })

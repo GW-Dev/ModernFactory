@@ -1,48 +1,7 @@
 ServerEvents.recipes(event => {
 
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
-    let mf = (id) => `modern_factory:modern_industrialization/assembler/${id}`;
-
-    // -- VANILLA COMPAT -- // 
-    event.recipes.modern_industrialization.assembler(8, 100)
-            .itemIn('1x ' + mc('redstone'))
-            .itemIn('1x ' + mc('stick'))
-            .itemOut(mc('redstone_torch'))
-            .id(mf('redstone_torch'))
-
-    event.recipes.modern_industrialization.assembler(8, 200)
-        .itemIn('3x ' + mc('stone'))
-        .itemIn('2x ' + mc('redstone_torch'))
-        .itemIn('1x ' + mc('redstone'))
-        .itemOut(mc('repeater'))
-        .id(mf('repeater'))
-
-    event.recipes.modern_industrialization.assembler(8, 200)
-        .itemIn('3x ' + mc('stone'))
-        .itemIn('3x ' + mc('redstone_torch'))
-        .itemIn('1x ' + mc('quartz'))
-        .itemOut(mc('comparator'))
-        .id(mf('comparator'))
-
-    event.recipes.modern_industrialization.assembler(8, 200)
-        .itemIn('4x #minecraft:stone_tool_materials')
-        .itemIn('3x #minecraft:wooden_slabs')
-        .itemIn('1x ' + mc('redstone'))
-        .itemIn('1x ' + mi('iron_rod'))
-        .itemOut(mc('piston'))
-        .id(mf('piston'))
-
-    event.recipes.modern_industrialization.assembler(8, 100)
-        .itemIn('1x ' + mc('piston'))
-        .itemIn('1x ' + mc('slime_ball'))
-        .itemOut(mc('sticky_piston'))
-        .id(mf('sticky_piston'))
-
-    event.recipes.modern_industrialization.assembler(8, 100)
-        .itemIn('1x ' + mc('piston'))
-        .fluidIn('10x ' + mi('acrylic_glue'))
-        .itemOut(mc('sticky_piston'))
-        .id(mf('sticky_piston_alt'))
+    let mf = (id) => `modern_factory:modern_industrialization/assembler/more_red/${id}`;
 
     // -- MORE RED COMPAT -- // 
 
