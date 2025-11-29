@@ -111,12 +111,6 @@ ServerEvents.recipes(event => {
         .itemOut('3x ' + mr('bundled_network_cable'))
         .id(mf('bundled_network_cable'))
 
-    // diode recipe
-    event.recipes.modern_industrialization.assembler(8, 200)
-        .itemIn('1x ' + mr('stone_plate'))
-        .itemIn('3x ' + mc('redstone'))
-        .itemOut(mr('diode'))
-        .id(mf('diode'))
 
     // diode recipe
     event.recipes.modern_industrialization.assembler(8, 200)

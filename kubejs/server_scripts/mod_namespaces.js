@@ -30,7 +30,7 @@ let cc = (id) => `computercraft:${id}`;
 let ed = (id) => `extradelight:${id}`;
 let fd = (id) => `farmersdelight:${id}`;
 let hnn = (id) => `hostilenetworks:${id}`;
-let hni = (id) => `hostile_neural_industriliazation:${id}`;
+let hni = (id) => `hostile_neural_industrialization:${id}`;
 let yai = (id) => `yet_another_industriliazation:${id}`;
 let fb = (id) => `framedblocks:${id}`;
 let sol = (id) => `solonion:${id}`
