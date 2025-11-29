@@ -132,7 +132,62 @@
 		# Show entity heads on minimap
 		# Default: true
 		entity_heads: true
-		entity_icon: { }
+		entity_icon: {
+			"minecraft:wolf": true
+			"minecraft:parrot": true
+			"twilightforest:death_tome": true
+			"minecraft:tropical_fish": false
+			"thavma:angry_zombie": true
+			"twilightforest:armored_giant": true
+			"minecraft:pig": true
+			"minecraft:rabbit": true
+			"minecraft:cow": true
+			"twilightforest:hydra": true
+			"twilightforest:penguin": true
+			"minecraft:sheep": true
+			"twilightforest:winter_wolf": true
+			"minecraft:dolphin": true
+			"twilightforest:deer": true
+			"twilightforest:raven": true
+			"twilightforest:yeti": true
+			"twilightforest:tiny_bird": true
+			"twilightforest:redcap": true
+			"minecraft:cave_spider": true
+			"minecraft:villager": true
+			"twilightforest:mosquito_swarm": true
+			"minecraft:zombie_villager": true
+			"minecraft:salmon": false
+			"minecraft:horse": true
+			"minecraft:bat": true
+			"minecraft:chicken": true
+			"minecraft:witch": true
+			"twilightforest:squirrel": true
+			"minecraft:fox": true
+			"minecraft:zombie": true
+			"minecraft:turtle": true
+			"twilightforest:naga": true
+			"twilightforest:kobold": true
+			"minecraft:glow_squid": true
+			"minecraft:enderman": true
+			"minecraft:pufferfish": false
+			"twilightforest:bighorn_sheep": true
+			"minecraft:creeper": true
+			"twilightforest:slime_beetle": true
+			"minecraft:drowned": true
+			"forbidden_arcanus:lost_soul": true
+			"minecraft:slime": true
+			"minecraft:squid": true
+			"minecraft:donkey": true
+			"minecraft:armadillo": true
+			"minecraft:skeleton": true
+			"twilightforest:pinch_beetle": true
+			"twilightforest:giant_miner": true
+			"twilightforest:boar": true
+			"minecraft:axolotl": true
+			"twilightforest:dwarf_rabbit": true
+			"minecraft:spider": true
+			"minecraft:cod": false
+		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
 		# Default: 0.5
@@ -251,11 +306,11 @@
 		
 		# Enables creation of death waypoints
 		# Default: true
-		death_waypoints: true
+		death_waypoints: false
 		
 		# Show waypoints in world
 		# Default: true
-		in_world_waypoints: true
+		in_world_waypoints: false
 		
 		# Minimum distance before waypoint dots start to fade
 		# Default: 1.0
