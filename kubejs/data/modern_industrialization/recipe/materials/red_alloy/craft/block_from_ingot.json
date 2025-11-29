@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "x": {
+            "item": "morered:red_alloy_ingot"
+        },
+        "y": {
+            "item": "morered:red_alloy_ingot"
+        }
+    },
+    "pattern": [
+        "xxx",
+        "xyx",
+        "xxx"
+    ],
+    "result": {
+        "count": 1,
+        "id": "modern_industrialization:red_alloy_block"
+    }
+}
