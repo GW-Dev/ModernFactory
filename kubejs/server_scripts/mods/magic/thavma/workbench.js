@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
 
     // -- REMOVED RECIPES -- //
     const RECIPES_TO_REMOVE = [
-
+        th('elemental_stone_arcane_workbench')
     ];
     RECIPES_TO_REMOVE.forEach(id => event.remove( {id: id} ));
 
@@ -43,6 +43,31 @@ ServerEvents.recipes(event => {
         {
             count: 1,
             id: th('goggles')
+        }
+    )
+
+    // elemental stone recipe
+    workbench(
+        mf('elemental_stone'),
+        {
+            "thavma:aer": 16,
+            "thavma:aether": 16,
+            "thavma:aqua": 16,
+            "thavma:ignis": 16,
+            "thavma:terra": 16
+        },
+        {    
+            s: {tag: th('shards')},
+            b: {item: mc('blackstone')}
+        },
+        [
+            'bbb',
+            'bsb',
+            'bbb'
+        ],        
+        {
+            count: 8,
+            id: th('elemental_stone')
         }
     )
 
