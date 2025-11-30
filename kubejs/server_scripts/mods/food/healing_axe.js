@@ -5,7 +5,7 @@ ItemEvents.firstRightClicked('kubejs:healing_axe', event => {
     const {player, item, server} = event;
     const cdUntil = (playerPseudoCD[player.uuid] || {})[item.id]||0
     if(server.tickCount < cdUntil) return;
-    player.potionEffects.add("saturation", 10, 0, false, false)
+    player.potionEffects.add("saturation", 5, 0, false, false)
     player.addItemCooldown(item, cd)
     playerPseudoCD[player.uuid] = playerPseudoCD[player.uuid] || {}
     playerPseudoCD[player.uuid][item.id] = server.tickCount + cd

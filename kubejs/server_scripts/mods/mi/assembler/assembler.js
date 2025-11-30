@@ -3,6 +3,20 @@ ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let mf = (id) => `modern_factory:modern_industrialization/assembler/misc/${id}`;
 
+    // -- KJS COMPAT -- // 
+    event.recipes.modern_industrialization.assembler(8, 500)
+            .itemIn('16x ' + ed('melon_rind_stirfry'))
+            .itemIn('16x ' + ed('lime_souffle'))
+            .itemIn('16x ' + ed('cheese_souffle'))
+            .itemIn('16x ' + ed('kyiv_cake_slice'))
+            .itemIn('16x ' + ed('kimchi_fried_rice'))
+            .itemIn('16x ' + ed('fish_chips'))
+            .itemIn('16x ' + ed('bacon_cheeseburger'))
+            .itemIn('64x #c:foods/cookie/gingerbread')
+            .itemIn('64x ' + ed('fudge'))
+            .itemOut(kj('healing_axe_head'))
+            .id(mf('healing_axe_head'))
+
     // -- VANILLA COMPAT -- // 
     event.recipes.modern_industrialization.assembler(8, 100)
             .itemIn('1x ' + mc('redstone'))

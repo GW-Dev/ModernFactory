@@ -140,4 +140,29 @@ ServerEvents.recipes(event => {
             id: 'javd:portal_block'
         }
     )
+
+    // healing axe recipe
+    infusion(
+        mf('healing_axe'),
+        {
+            'thavma:herba': 32,
+            'thavma:instrumentum': 16,
+            'thavma:motus': 16
+        },
+        {item: kj('healing_axe_head')},
+        [ 
+            {item: th('greatwood_core')},
+            {item: mc('breeze_rod')},
+            {item: mc('breeze_rod')},
+            {item: mc('breeze_rod')},
+            {item: mc('breeze_rod')},
+        ],
+        {
+            count: 1,
+            id: kj('healing_axe'),
+            components: {
+                'minecraft:unbreakable': {value: true}
+            }
+        }
+    )
 })
