@@ -46,7 +46,8 @@ ServerEvents.recipes(event => {
         mc('cauldron'),
         mc('brewing_stand'),
         mc('enchanting_table'),
-        mc('beacon')
+        mc('beacon'),
+        mc('flint_and_steel')
     ];
     VANILLA_DELETED_SMELTING.forEach(id => event.remove( {id: id} ));
 
@@ -362,5 +363,13 @@ ServerEvents.recipes(event => {
 
     })
     .id(mf('brewing_stand'));
+
+    // -- FLINT AND STEEL -- //
+    event.shapeless(
+    Item.of(mc('flint_and_steel'), 1),
+    [
+        mi('steel_plate'),
+        mc('flint'),
+    ]).id(mf('flint_and_steel'))
 
 })

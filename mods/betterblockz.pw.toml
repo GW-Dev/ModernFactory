@@ -1,13 +1,13 @@
 name = "BetterBlockZ"
-filename = "betterblockz-0.2.0-1.21.1-neoforge.jar"
+filename = "betterblockz-0.2.2-1.21.1-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c24a72577907284db9deccb540642115ac386f96"
+hash = "33b164a1b425d50a5480c0ad0262fab3a662ed85"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7233186
+file-id = 7261625
 project-id = 1361873

@@ -17,7 +17,15 @@ RecipeViewerEvents.removeEntries('item', event => {
         fs('obsidian_upgrade'),
         fs('water_generator_upgrade'),
         fs('dripping_upgrade'),
-        hnn('twilight_prediction')
+        hnn('twilight_prediction'),
+        bz('omni_spade'),
+        bz('auto_placer'),
+        bz('block_replacer'),
+        bz('meta_wand'),
+        bz('block_extend'),
+        bz('checkered_spade'),
+        bz('color_changer'),
+        bz('block_randomizer'),
     ];
     ITEMS_TO_HIDE.forEach(ITEMS_TO_HIDE => event.remove(ITEMS_TO_HIDE));
 })
