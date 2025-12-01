@@ -3,6 +3,47 @@ ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let mf = (id) => `modern_factory:modern_industrialization/assembler/misc/${id}`;
 
+
+    // -- HOSTILE NEURAL NETWORKS COMPAT -- // 
+    event.recipes.modern_industrialization.assembler(8, 200)
+            .itemIn('6x ' + mi('steel_plate'))
+            .itemIn('2x ' + mi('red_alloy_plate'))
+            .itemIn('2x ' + mc('ender_eye'))
+            .itemIn('2x ' + mi('analog_circuit'))
+            .itemOut(hnn('sim_chamber'))
+            .id(mf('sim_chamber'))
+
+    event.recipes.modern_industrialization.assembler(8, 200)
+            .itemIn('6x ' + mi('steel_plate'))
+            .itemIn('2x ' + mi('aluminum_plate'))
+            .itemIn('1x ' + mi('red_alloy_block'))
+            .itemIn('3x ' + mi('analog_circuit'))
+            .itemOut(hnn('loot_fabricator'))
+            .id(mf('loot_fab'))
+
+    event.recipes.modern_industrialization.assembler(8, 200)
+            .itemIn('4x ' + mi('steel_plate'))
+            .itemIn('1x ' + mi('diamond_plate'))
+            .itemIn('4x ' + mi('red_alloy_plate'))
+            .itemIn('1x ' + mi('analog_circuit'))
+            .itemOut(hnn('blank_data_model'))
+            .id(mf('blank_data_model'))
+
+    event.recipes.modern_industrialization.assembler(8, 200)
+            .itemIn('3x ' + mi('aluminum_cable'))
+            .itemIn('9x ' + mi('red_alloy_plate'))
+            .itemIn('9x ' + mi('analog_circuit'))
+            .itemOut(hnn('deep_learner'))
+            .id(mf('deep_learner'))
+
+    // -- TRAVEL ANCHORS COMPAT -- // 
+    event.recipes.modern_industrialization.assembler(8, 200)
+            .itemIn('6x ' + mi('steel_plate'))
+            .itemIn('2x ' + mi('red_alloy_plate'))
+            .itemIn('1x ' + mc('ender_eye'))
+            .itemOut(ta('travel_anchor'))
+            .id(mf('travel_anchor'))
+
     // -- KJS COMPAT -- // 
     event.recipes.modern_industrialization.assembler(8, 500)
             .itemIn('16x ' + ed('melon_rind_stirfry'))
@@ -17,7 +58,13 @@ ServerEvents.recipes(event => {
             .itemOut(kj('healing_axe_head'))
             .id(mf('healing_axe_head'))
 
-    // -- VANILLA COMPAT -- // 
+    // -- VANILLA COMPAT -- //
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('4x ' + mc('amethyst_shard'))
+        .itemIn('2x ' + mc('glass'))
+        .itemOut('4x ' + mc('tinted_glass'))
+        .id(mf('tinted_glass'))
+    
     event.recipes.modern_industrialization.assembler(8, 100)
             .itemIn('1x ' + mc('redstone'))
             .itemIn('1x ' + mc('stick'))

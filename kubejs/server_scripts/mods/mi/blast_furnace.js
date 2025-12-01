@@ -24,5 +24,27 @@ ServerEvents.recipes(event => {
         .itemIn('1x ' + ae('ender_dust'))
         .fluidOut('100x ' + mi('liquid_ender'))
         .id(mf('liquid_ender'))
+
+    // warp dust recipe
+    event.recipes.modern_industrialization.blast_furnace(8, 200)
+        .itemIn('1x ' + mc('amethyst_shard'))
+        .fluidIn('100x ' + mi('liquid_ender'))
+        .itemOut('2x ' + wy('warp_dust'))
+        .id(mf('warp_dust'))
+
+    // dormant shard recipe
+    event.recipes.modern_industrialization.blast_furnace(8, 200)
+        .itemIn('4x ' + wy('warp_dust'))
+        .itemIn('1x ' + mi('diamond_large_plate'))
+        .itemOut('1x ' + wy('dormant_shard'))
+        .id(mf('dormant_shard'))
+
+    // warp stone recipe
+    event.recipes.modern_industrialization.blast_furnace(8, 400)
+        .itemIn('1x ' + wy('dormant_shard'))
+        .itemIn('4x ' + mi('stainless_steel_large_plate'))
+        .fluidIn('5000x ' + mi('liquid_ender'))
+        .itemOut('1x ' + wy('warp_stone'))
+        .id(mf('warp_stone'))
     
 })

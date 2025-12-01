@@ -165,4 +165,131 @@ ServerEvents.recipes(event => {
             }
         }
     )
+
+    // beacon recipe
+    infusion(
+        mf('beacon'),
+        {
+            'thavma:lux': 32,
+            'thavma:instrumentum': 16,
+            'thavma:praecantatio': 16,
+            'thavma:aether': 32
+        },
+        {item: mc('nether_star')},
+        [ 
+            {item: wy('warp_stone')},
+            {item: mc('obsidian')},
+            {item: mc('obsidian')},
+            {item: mc('obsidian')},
+            {item: mc('diamond_block')},
+            {item: th('sealing_jar')},
+        ],
+        {
+            count: 1,
+            id: mc('beacon')
+        }
+    )
+
+    // enchanting table recipe
+    infusion(
+        mf('enchanting_table'),
+        {
+            'thavma:instrumentum': 16,
+            'thavma:praecantatio': 16,
+            'thavma:aether': 16
+        },
+        {item: mc('bookshelf')},
+        [ 
+            {item: mi('red_alloy_block')},
+            {item: mc('obsidian')},
+            {item: mi('diamond_large_plate')},
+            {item: th('fabric')},
+            {item: th('fabric')},
+            {item: th('fabric')},
+        ],
+        {
+            count: 1,
+            id: mc('enchanting_table')
+        }
+    )
+
+    // thavmite vanguard helmet recipe
+    infusion(
+        mf('vanguard_helmet'),
+        {
+            'thavma:praecantatio': 16,
+            'thavma:praemunio': 32
+        },
+        {item: th('thavmite_helmet')},
+        [ 
+            {item: mc('netherite_ingot')},
+            {item: mi('diamond_large_plate')},
+            {item: th('thavmite_block')},
+            {item: kj('tanned_leather')},
+        ],
+        {
+            count: 1,
+            id: th('thavmite_vanguard_helmet')
+        }
+    )
+
+    // thavmite vanguard chestplate recipe
+    infusion(
+        mf('vanguard_chestplate'),
+        {
+            'thavma:praecantatio': 16,
+            'thavma:praemunio': 32
+        },
+        {item: th('thavmite_chestplate')},
+        [ 
+            {item: mc('netherite_ingot')},
+            {item: mi('diamond_large_plate')},
+            {item: th('thavmite_block')},
+            {item: kj('tanned_leather')},
+        ],
+        {
+            count: 1,
+            id: th('thavmite_vanguard_chestplate')
+        }
+    )
+
+    // thavmite vanguard leggings recipe
+    infusion(
+        mf('vanguard_leggings'),
+        {
+            'thavma:praecantatio': 16,
+            'thavma:praemunio': 32
+        },
+        {item: th('thavmite_leggings')},
+        [ 
+            {item: mc('netherite_ingot')},
+            {item: mi('diamond_large_plate')},
+            {item: th('thavmite_block')},
+            {item: kj('tanned_leather')},
+        ],
+        {
+            count: 1,
+            id: th('thavmite_vanguard_leggings')
+        }
+    )
+
+    // thavmite vanguard boots recipe
+    infusion(
+        mf('vanguard_boots'),
+        {
+            'thavma:praecantatio': 16,
+            'thavma:praemunio': 32
+        },
+        {item: th('thavmite_boots')},
+        [ 
+            {item: mc('netherite_ingot')},
+            {item: mi('diamond_large_plate')},
+            {item: th('thavmite_block')},
+            {item: kj('tanned_leather')},
+        ],
+        {
+            count: 1,
+            id: th('thavmite_vanguard_boots')
+        }
+    )
 })

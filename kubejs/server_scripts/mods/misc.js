@@ -1,3 +1,15 @@
+    ServerEvents.tags('item', event => {
+        const PAPER = [
+            cc('printed_page'),
+            cc('printed_pages'),
+            mc('paper')
+        ]
+        PAPER.forEach(PAPER => {
+            event.add('computercraft:accepted_paper', `${PAPER}`)
+        });
+
+    })
+
 ServerEvents.recipes(event => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- // 
     let mf = (id) => `modern_factory:misc/${id}`;
@@ -42,6 +54,27 @@ ServerEvents.recipes(event => {
         bg('gadget_copy_paste'),
         bg('gadget_cut_paste'),
         bg('gadget_destruction'),
+        wy('warp_dust'),
+        wy('dormant_shard'),
+        wy('return_scroll'),
+        wy('warp_scroll'),
+        wy('blank_scroll'),
+        wy('warp_stone'),
+        ta('travel_anchor'),
+        ta('travel_staff'),
+        hnn('framework'),
+        hnn('deep_learner'),
+        hnn('loot_fabricator'),
+        hnn('sim_chamber'),
+        bz('omni_spade'),
+        bz('auto_placer'),
+        bz('block_replacer'),
+        bz('meta_wand'),
+        bz('block_extend'),
+        bz('checkered_spade'),
+        bz('color_changer'),
+        bz('block_randomizer'),
+
     ];
     RECIPES_TO_REMOVE.forEach(id => event.remove( {id: id} ));
 
@@ -317,4 +350,68 @@ ServerEvents.recipes(event => {
     })
     .id(mf('destruction_gadget'));
 
+    // -- WARP SCROLL -- //
+    event.shapeless(
+    Item.of(wy('warp_scroll'), 1),
+    [
+        wy('dormant_shard'),
+        mc('book'),
+        th('thavmite_plating')
+    ]).id(mf('warp_scroll'))
+
+    // -- BLANK SCROLL -- //
+    event.shapeless(
+    Item.of(wy('blank_scroll'), 1),
+    [
+        wy('dormant_shard'),
+        mc('book'),
+        th('orichalcum_plating')
+    ]).id(mf('blank_scroll'))
+
+    // -- RETURN SCROLL -- //
+    event.shapeless(
+    Item.of(wy('return_scroll'), 1),
+    [
+        wy('dormant_shard'),
+        mc('book'),
+        th('iron_plating')
+    ]).id(mf('return_scroll'))
+
+    // -- PRINTED BOOK -- //
+    event.shapeless(
+    Item.of(cc('printed_book'), 1),
+    [
+        kj('tanned_leather'),
+        mc('string'),
+        '#computercraft:accepted_paper'
+    ]).id(mf('printed_book'))
+
+    // -- TRAVEL ANCHOR -- //
+    event.shaped(ta('travel_anchor'), [
+        'SFS',
+        'SES',
+        'SFS'
+    ],
+    {
+        S: mi('steel_plate'),
+        F: mi('red_alloy_plate'),
+        E: mc('ender_eye')
+
     })
+    .id(mf('travel_anchor'));
+
+    // -- TRAVEL STAFF -- //
+    event.shaped(ta('travel_staff'), [
+        ' FE',
+        ' SF',
+        'S  '
+    ],
+    {
+        S: mi('steel_rod'),
+        F: mi('red_alloy_plate'),
+        E: mc('ender_eye')
+
+    })
+    .id(mf('travel_staff'));
+})
+
