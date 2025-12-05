@@ -26,6 +26,7 @@ RecipeViewerEvents.removeEntries('item', event => {
         bz('checkered_spade'),
         bz('color_changer'),
         bz('block_randomizer'),
+        mi('replicator')
     ];
     ITEMS_TO_HIDE.forEach(ITEMS_TO_HIDE => event.remove(ITEMS_TO_HIDE));
 })
