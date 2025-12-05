@@ -74,7 +74,9 @@ ServerEvents.recipes(event => {
         bz('checkered_spade'),
         bz('color_changer'),
         bz('block_randomizer'),
-
+        mi('electric_age/component/implosion_compressor/singularity'),
+        mi('electric_age/machine/assembler/replicator'),
+        mi('vanilla_recipes/implosion_compressor/nether_star')
     ];
     RECIPES_TO_REMOVE.forEach(id => event.remove( {id: id} ));
 
